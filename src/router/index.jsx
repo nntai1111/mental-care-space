@@ -8,7 +8,6 @@ import KnowledgeModulePage from "../pages/KnowledgeModulePage";
 import ChallengeModulePage from "../pages/ChallengeModulePage";
 import ProgressModulePage from "../pages/ProgressModulePage";
 import WellbeingToolsPage from "../pages/WellbeingToolsPage";
-import PostDetailPage from "../pages/PostDetailPage";
 import Layout from "../components/layouts/Layout";
 import LoadingSpinner from "../components/atoms/LoadingSpinner";
 import NotificationSystem from "../components/organisms/NotificationSystem";
@@ -38,10 +37,7 @@ function AppRouter() {
                         path="/home"
                         element={isAuthenticated ? <HomePage /> : <Navigate to="/auth" />}
                     />
-                    <Route
-                        path="/post/:id"
-                        element={isAuthenticated ? <PostDetailPage /> : <Navigate to="/auth" />}
-                    />
+
                     <Route
                         path="/chat"
                         element={isAuthenticated ? <MoodModulePage /> : <Navigate to="/auth" />}

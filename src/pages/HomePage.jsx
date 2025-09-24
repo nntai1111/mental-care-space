@@ -1,213 +1,96 @@
-import React, { useState, useEffect } from "react";
-import { motion } from "framer-motion";
-import CreatePost from "../components/organisms/CreatePost";
-import Feed from "../components/organisms/Feed";
-import { useOutletContext } from "react-router-dom";
-import SearchBar from "../components/molecules/SearchBar";
-import FeedNav from "../components/molecules/FeedNav";
-import categories from "../data/categories.json"; // Adjust the path based on your file location
+import React from 'react';
 
-const HomePage = () => {
-  const { handleNavigateToChat } = useOutletContext();
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
-  const [search, setSearch] = useState("");
-  const [selectedFilters, setSelectedFilters] = useState([]);
-  const [selectedTab, setSelectedTab] = useState("most_recent");
-  const [anonymousPost, setAnonymousPost] = useState("");
-  const [selectedMood, setSelectedMood] = useState(null);
-
-  const tagSuggestions = [
-    { value: "stress", label: "Stress", icon: "😣", count: 42 },
-    { value: "mat-ngu", label: "Mất ngủ", icon: "🌙", count: 30 },
-    { value: "tram-cam", label: "Trầm cảm", icon: "😔", count: 25 },
-    { value: "lo-au", label: "Lo âu", icon: "😟", count: 18 },
-    { value: "tu-ky", label: "Tự kỷ", icon: "🧩", count: 10 },
-    { value: "hoc-duong", label: "Học đường", icon: "🎓", count: 15 },
-  ];
-
-  const quotes = [
-    "Ngay cả trong đêm tối nhất, mặt trăng vẫn tỏa sáng.",
-    "Mỗi ngày là một cơ hội để bắt đầu lại.",
-    "Hãy mỉm cười, vì bạn xứng đáng với niềm vui.",
-  ];
-
-  const activities = [
-    "Uống một cốc nước",
-    "Đi bộ 5 phút",
-    "Gửi tin nhắn cho một người bạn",
-    "Hít thở sâu 10 lần",
-    "Nghe một bài hát yêu thích",
-  ];
-
-  const moods = [
-    { emoji: "😊", label: "Vui", count: 12 },
-    { emoji: "😢", label: "Buồn", count: 5 },
-    { emoji: "😴", label: "Mệt", count: 8 },
-    { emoji: "😡", label: "Bực", count: 3 },
-  ];
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
-    };
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  const handleAnonymousSubmit = () => {
-    if (anonymousPost.trim()) {
-      alert("Đã gửi ẩn danh: " + anonymousPost);
-      setAnonymousPost("");
-    }
-  };
-
-  const toggleFilter = (filter) => {
-    setSelectedFilters((prev) =>
-      prev.includes(filter)
-        ? prev.filter((item) => item !== filter)
-        : [...prev, filter]
-    );
-  };
-
-  const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-  const randomActivity = activities[Math.floor(Math.random() * activities.length)];
-
-  return (
-    <div className="flex h-screen flex-col md:flex-row">
-      {/* Main content */}
-      <div className="flex-1 space-y-4 overflow-y-auto scrollbar-none z-20 px-2">
-        <div className="sticky top-0 z-30 bg-white/80 dark:bg-neutral-900/80 backdrop-blur-md pb-2 pt-2 mb-2 shadow-sm">
-          {/* On mobile, FeedNav is above SearchBar */}
-          {isMobile ? (
-            <div className="flex flex-col gap-4">
-              <FeedNav selected={selectedTab} onSelect={setSelectedTab} />
-              <div className="w-full">
-                <SearchBar
-                  onSearch={(searchValue, filterValue) => {
-                    setSearch(searchValue);
-                    setSelectedFilters(filterValue ? [filterValue] : []);
-                  }}
-                  tags={tagSuggestions}
-                  search={search}
-                  setSearch={setSearch}
-                  selectedFilter={selectedFilters}
-                  setSelectedFilter={setSelectedFilters}
-                />
-              </div>
-            </div>
-          ) : (
-            <div className="flex items-center gap-4">
-              <FeedNav selected={selectedTab} onSelect={setSelectedTab} />
-              <div className="flex-1 flex justify-end">
-                <div className="w-full max-w-xs">
-                  <SearchBar
-                    onSearch={(searchValue, filterValue) => {
-                      setSearch(searchValue);
-                      setSelectedFilters(filterValue ? [filterValue] : []);
-                    }}
-                    tags={tagSuggestions}
-                    search={search}
-                    setSearch={setSearch}
-                    selectedFilter={selectedFilters}
-                    setSelectedFilter={setSelectedFilters}
-                  />
-                </div>
-              </div>
-            </div>
-          )}
-        </div>
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className={isMobile ? "flex justify-center" : ""}
-        >
-          <div className={isMobile ? "w-full max-w-md" : ""}>
-            <CreatePost />
-          </div>
-        </motion.div>
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className={isMobile ? "flex justify-center" : ""}
-        >
-          <div className={isMobile ? "w-full max-w-md" : ""}>
-            <Feed
-              onNavigateToChat={handleNavigateToChat}
-              search={search}
-              filter={selectedFilters}
-            />
-          </div>
-        </motion.div>
-      </div>
-      {/* Right section: Fixed width (320px), hidden on mobile, scrollable */}
-      {!isMobile && (
-        <div className="w-80 flex flex-col h-full p-4 dark:from-neutral-800 dark:to-neutral-900 overflow-y-auto scrollbar-none">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-4 mb-4 text-center"
-          >
-            <div className="flex items-center gap-2 mb-2 justify-center">
-              <span className="text-2xl">🌟</span>
-              <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200">
-                Quote hôm nay
-              </h3>
-            </div>
-            <p className="text-sm text-gray-600 dark:text-gray-300 italic">
-              "{randomQuote}"
-            </p>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.3 }}
-            className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-4 mb-4"
-          >
-            <div className="flex items-center gap-2 mb-2">
-              <span className="text-2xl">🌿</span>
-              <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200">
-                Thử một điều nhỏ để cảm thấy tốt hơn
-              </h3>
-            </div>
-            <div className="text-sm text-gray-600 dark:text-gray-300">
-              <p>✔ {randomActivity}</p>
-            </div>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-4 mb-4"
-          >
-            <div className="flex items-center gap-2 mb-2">
-              <span className="text-2xl">📌</span>
-              <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200">
-                Lọc theo chủ đề
-              </h3>
-            </div>
-            <div className="grid grid-cols-2 gap-2">
-              {categories.map((category) => (
-                <button
-                  key={category.id}
-                  onClick={() => toggleFilter(category.name)}
-                  className={`flex items-center gap-2 p-2 rounded-xl dark:text-white text-sm ${selectedFilters.includes(category.name)
-                    ? "bg-purple-100 dark:text-black"
-                    : "bg-gray-50 dark:bg-gray-600 hover:bg-gray-100 dark:hover:bg-neutral-500"
-                    } transition-colors`}
-                >
-                  <span>{category.icon}</span>
-                  <span>{category.nameVi}</span>
-                </button>
-              ))}
-            </div>
-          </motion.div>
-        </div>
-      )}
-    </div>
-  );
+const sampleData = {
+  progress: {
+    meditationHours: 12,
+    challengesCompleted: 5,
+    moodEntries: 10,
+    knowledgeRead: 8,
+  },
+  challenges: [
+    { id: 1, title: "Thiền 5 phút mỗi ngày", duration: "3 ngày", completed: false },
+  ],
+  moods: [
+    { id: 1, emotion: "Vui vẻ", note: "Hôm nay cảm thấy tràn đầy năng lượng!", date: "2025-09-24" },
+  ],
+  wellbeingTools: [
+    { id: 1, name: "Thiền định", icon: "🧘" },
+  ],
 };
 
-export default HomePage;
+const Home = () => (
+  <div className="min-h-screen bg-gradient-to-br from-[#A3BFFA] to-white p-8">
+    <div className="max-w-6xl mx-auto">
+      <h1 className="text-4xl font-sans font-bold text-[#1A3C6A] mb-8 text-center">Chào mừng đến với EmoSpace</h1>
+      <p className="text-lg text-gray-600 text-center mb-12">Hành trình chăm sóc sức khỏe tinh thần của bạn bắt đầu từ đây!</p>
+
+      {/* Tiến độ tổng quan */}
+      <div className="bg-white rounded-2xl shadow-md p-8 mb-8">
+        <h2 className="text-2xl font-semibold text-[#1A3C6A] mb-6">Tổng quan tiến độ</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="text-center">
+            <p className="text-3xl font-bold text-[#F5A623]">{sampleData.progress.meditationHours}</p>
+            <p className="text-gray-600">Giờ thiền</p>
+          </div>
+          <div className="text-center">
+            <p className="text-3xl font-bold text-[#F5A623]">{sampleData.progress.challengesCompleted}</p>
+            <p className="text-gray-600">Thử thách hoàn thành</p>
+          </div>
+          <div className="text-center">
+            <p className="text-3xl font-bold text-[#F5A623]">{sampleData.progress.moodEntries}</p>
+            <p className="text-gray-600">Nhật ký cảm xúc</p>
+          </div>
+          <div className="text-center">
+            <p className="text-3xl font-bold text-[#F5A623]">{sampleData.progress.knowledgeRead}</p>
+            <p className="text-gray-600">Bài viết đã đọc</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Thử thách hôm nay */}
+      <div className="bg-white rounded-2xl shadow-md p-8 mb-8 hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300">
+        <h2 className="text-2xl font-semibold text-[#1A3C6A] mb-6">Thử thách hôm nay</h2>
+        {sampleData.challenges.map(challenge => (
+          <div key={challenge.id} className="flex justify-between items-center">
+            <div>
+              <h3 className="text-xl font-semibold text-[#1A3C6A]">{challenge.title}</h3>
+              <p className="text-gray-600">Thời gian: {challenge.duration}</p>
+            </div>
+            <button className="bg-[#F5A623] text-white px-4 py-2 rounded-full hover:bg-[#E69500] transition-colors">
+              Bắt đầu
+            </button>
+          </div>
+        ))}
+      </div>
+
+      {/* Cảm xúc gần đây */}
+      <div className="bg-white rounded-2xl shadow-md p-8 mb-8 hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300">
+        <h2 className="text-2xl font-semibold text-[#1A3C6A] mb-6">Cảm xúc gần đây</h2>
+        {sampleData.moods.map(mood => (
+          <div key={mood.id}>
+            <h3 className="text-xl font-semibold text-[#1A3C6A]">{mood.emotion}</h3>
+            <p className="text-gray-600">{mood.note} - {mood.date}</p>
+          </div>
+        ))}
+      </div>
+
+      {/* Công cụ gợi ý */}
+      <div className="bg-white rounded-2xl shadow-md p-8 hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300">
+        <h2 className="text-2xl font-semibold text-[#1A3C6A] mb-6">Công cụ gợi ý</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+          {sampleData.wellbeingTools.map(tool => (
+            <div key={tool.id} className="text-center">
+              <span className="text-5xl mb-4 block">{tool.icon}</span>
+              <h3 className="text-xl font-semibold text-[#1A3C6A]">{tool.name}</h3>
+              <button className="mt-4 bg-[#F5A623] text-white px-4 py-2 rounded-full hover:bg-[#E69500] transition-colors">
+                Thử ngay
+              </button>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+);
+
+export default Home;

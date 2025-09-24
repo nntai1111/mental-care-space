@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { Outlet, useNavigate } from "react-router-dom";
 import Navbar from "../organisms/Navbar"; // Thay Sidebar bằng Navbar
 import MobileNavBar from "../molecules/MobileNavBar";
-import ChatSidebar from "../organisms/ChatSidebar";
 import { setFirstMountFalse } from "../../store/authSlice";
 
 const Layout = () => {
@@ -80,7 +79,6 @@ const Layout = () => {
                     </div>
                 </div>
             </div>
-            <ChatSidebar isOpen={isChatOpen} onClose={() => setIsChatOpen(false)} />
             {isMobile && (
                 <MobileNavBar
                     activeTab={activeTab}
