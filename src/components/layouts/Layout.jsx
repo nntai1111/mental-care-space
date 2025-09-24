@@ -2,10 +2,12 @@ import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useSelector, useDispatch } from "react-redux";
 import { motion } from "framer-motion";
-import { Outlet, useNavigate } from "react-router-dom";
+import { Outlet, useNavigate, useLocation } from "react-router-dom";
 import Navbar from "../organisms/Navbar"; // Thay Sidebar bằng Navbar
 import MobileNavBar from "../molecules/MobileNavBar";
 import { setFirstMountFalse } from "../../store/authSlice";
+import KnowledgeBreadcrumb from "../molecules/KnowledgeBreadcrumb";
+import { useBreadcrumb } from "../../contexts/BreadcrumbContext";
 
 const Layout = () => {
     const dispatch = useDispatch();
@@ -46,6 +48,13 @@ const Layout = () => {
         navigate(`/${tab}`);
     };
 
+    const location = useLocation();
+    const { breadcrumb } = useBreadcrumb();
+    const pathnames = location.pathname.split("/").filter((x) => x);
+    // Ưu tiên breadcrumb từ context nếu có, nếu không thì lấy từ URL
+    const category = breadcrumb.category || (pathnames[0] ? pathnames[0] : "Home");
+    const topic = breadcrumb.topic || (pathnames[1] ? pathnames[1] : null);
+    const article = breadcrumb.article || (pathnames[2] ? pathnames[2] : null);
     return (
         <div className="min-h-screen dark:bg-gray-900 pb-16 md:pb-0 relative overflow-hidden z-10">
             <div className="fixed inset-0 pointer-events-none">
@@ -73,7 +82,16 @@ const Layout = () => {
                     unreadMessages={totalUnreadMessages}
                     unreadNotifications={unreadNotificationsCount}
                 />
-                <div className="flex-1 mt-16 md:mt-20"> {/* Thêm margin-top để tránh nội dung bị Navbar che */}
+                {/* Breadcrumb luôn ở đầu mỗi trang */}
+                <div className="w-full max-w-5xl mx-auto px-4 pt-4">
+                    <KnowledgeBreadcrumb
+                        category={category}
+                        topic={topic}
+                        article={article}
+                        onNavigate={() => { }}
+                    />
+                </div>
+                <div className="flex-1 mt-4 md:mt-8"> {/* Đã thêm margin-top cho breadcrumb */}
                     <div className="mx-auto">
                         <Outlet context={{ handleNavigateToChat: (id) => navigate(`/chat${id ? `?id=${id}` : ""}`) }} />
                     </div>

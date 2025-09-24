@@ -1,0 +1,61 @@
+[
+    {
+        "id": "wellbeing",
+        "name": "Wellbeing",
+        "description": "Các chủ đề về sức khỏe tinh thần, cân bằng cuộc sống, hạnh phúc cá nhân.",
+        "topics": [
+            {
+                "id": "mindfulness",
+                "name": "Mindfulness",
+                "description": "Thực hành chánh niệm giúp giảm căng thẳng và tăng sự tập trung.",
+                "articles": [
+                    {
+                        "id": "intro-mindfulness",
+                        "title": "Giới thiệu về Chánh Niệm",
+                        "summary": "Khám phá khái niệm chánh niệm và lợi ích của nó.",
+                        "content": "Chánh niệm là khả năng nhận biết và chú ý đến hiện tại..."
+                    },
+                    {
+                        "id": "practice-mindfulness",
+                        "title": "Thực hành Chánh Niệm hàng ngày",
+                        "summary": "Các bước đơn giản để thực hành chánh niệm mỗi ngày.",
+                        "content": "Bạn có thể bắt đầu bằng việc hít thở sâu, chú ý đến cảm xúc..."
+                    }
+                ]
+            },
+            {
+                "id": "stress-management",
+                "name": "Quản lý căng thẳng",
+                "description": "Các phương pháp giúp kiểm soát và giảm căng thẳng.",
+                "articles": [
+                    {
+                        "id": "intro-stress",
+                        "title": "Hiểu về Căng Thẳng",
+                        "summary": "Căng thẳng là gì và ảnh hưởng như thế nào đến sức khỏe?",
+                        "content": "Căng thẳng là phản ứng tự nhiên của cơ thể..."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "growth",
+        "name": "Phát triển bản thân",
+        "description": "Các chủ đề về học tập, phát triển kỹ năng, xây dựng thói quen tốt.",
+        "topics": [
+            {
+                "id": "habits",
+                "name": "Xây dựng thói quen",
+                "description": "Cách hình thành và duy trì thói quen tích cực.",
+                "articles": [
+                    {
+                        "id": "intro-habits",
+                        "title": "Giới thiệu về Thói Quen",
+                        "summary": "Tại sao thói quen lại quan trọng trong cuộc sống?",
+                        "content": "Thói quen là những hành động lặp đi lặp lại..."
+                    }
+                ]
+            }
+        ]
+    }
+]
