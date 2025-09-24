@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import DesktopSettings from "../components/organisms/DesktopSettings";
-import MobileSettingsPage from "./MobileSettingsPage";
+import DesktopWellbeingTools from "../components/organisms/DesktopWellbeingTools";
+import MobileWellbeingTools from "./MobileWellbeingTools";
 
 const SettingsPage = () => {
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
@@ -21,7 +21,7 @@ const SettingsPage = () => {
             transition={{ duration: 0.5 }}
             className="p-8"
         >
-            {isMobile ? <MobileSettingsPage /> : <DesktopSettings />}
+            {isMobile ? <MobileWellbeingTools /> : <DesktopWellbeingTools />}
         </motion.div>
     );
 };

@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { useSelector, useDispatch } from "react-redux";
 import { motion } from "framer-motion";
 import { Outlet, useNavigate } from "react-router-dom";
-import Sidebar from "../organisms/Sidebar";
+import Navbar from "../organisms/Navbar"; // Thay Sidebar bằng Navbar
 import MobileNavBar from "../molecules/MobileNavBar";
 import ChatSidebar from "../organisms/ChatSidebar";
 import { setFirstMountFalse } from "../../store/authSlice";
@@ -15,7 +15,6 @@ const Layout = () => {
     const [isChatOpen, setIsChatOpen] = useState(false);
     const [activeTab, setActiveTab] = useState("home");
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
-    const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
     const { t } = useTranslation();
 
     // Mock data for unread counts
@@ -48,10 +47,6 @@ const Layout = () => {
         navigate(`/${tab}`);
     };
 
-    const handleCollapseChange = (isCollapsed) => {
-        setIsSidebarCollapsed(isCollapsed);
-    };
-
     return (
         <div className="min-h-screen dark:bg-gray-900 pb-16 md:pb-0 relative overflow-hidden z-10">
             <div className="fixed inset-0 pointer-events-none">
@@ -71,15 +66,15 @@ const Layout = () => {
                     transition={{ duration: 30, repeat: Infinity, ease: "easeInOut" }}
                 />
             </div>
-            <div className="flex relative z-20">
-                <Sidebar
+            <div className="flex flex-col relative z-20">
+                {/* Thay Sidebar bằng Navbar */}
+                <Navbar
                     activeTab={activeTab}
                     onTabChange={handleTabChange}
                     unreadMessages={totalUnreadMessages}
                     unreadNotifications={unreadNotificationsCount}
-                    onCollapseChange={handleCollapseChange}
                 />
-                <div className={`flex-1 ${!isMobile ? (isSidebarCollapsed ? "ml-20" : "ml-80") : ""} relative z-20 transition-all duration-300`}>
+                <div className="flex-1 mt-16 md:mt-20"> {/* Thêm margin-top để tránh nội dung bị Navbar che */}
                     <div className="mx-auto">
                         <Outlet context={{ handleNavigateToChat: (id) => navigate(`/chat${id ? `?id=${id}` : ""}`) }} />
                     </div>

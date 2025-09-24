@@ -95,11 +95,11 @@
   },
   "nav": {
     "home": "Trang chủ",
-    "chat": "Trò chuyện",
-    "notifications": "Thông báo",
-    "profile": "Hồ sơ",
+    "chat": "MoodModule",
+    "notifications": "KnowledgeModule",
+    "profile": "ChallengeModule",
     "wellness-hub": "Trung tâm sức khỏe",
-    "settings": "Cài đặt",
-    "icons": "Icons"
+    "settings": "WellbeingTools",
+    "icons": "ProgressModule"
   }
 }

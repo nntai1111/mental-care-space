@@ -285,8 +285,8 @@ const MobileProfilePage = ({ onBack }) => {
               size="sm"
               onClick={() => setActiveTab(tab.id)}
               className={`flex-1 py-3 rounded-none ${activeTab === tab.id
-                  ? "bg-white dark:bg-gray-800 border-b-2 border-purple-500 text-purple-600 dark:text-purple-400"
-                  : "text-gray-600 dark:text-gray-400"
+                ? "bg-white dark:bg-gray-800 border-b-2 border-purple-500 text-purple-600 dark:text-purple-400"
+                : "text-gray-600 dark:text-gray-400"
                 }`}>
               {tab.label}
               {tab.count && (

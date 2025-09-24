@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import DesktopNotificationsNew from "../components/organisms/DesktopNotificationsNew";
-import MobileNotificationsPage from "./MobileNotificationsPage";
+import DestopProgressModule from "../components/organisms/DestopProgressModule";
+import MobileWellbeingTools from "./MobileWellbeingTools";
 
-const NotificationsPage = () => {
+const ProgressModulePage = () => {
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
     useEffect(() => {
@@ -21,9 +21,9 @@ const NotificationsPage = () => {
             transition={{ duration: 0.5 }}
             className="p-8"
         >
-            {isMobile ? <MobileNotificationsPage /> : <DesktopNotificationsNew />}
+            {isMobile ? <MobileWellbeingTools /> : <DestopProgressModule />}
         </motion.div>
     );
 };
 
-export default NotificationsPage;
+export default ProgressModulePage;

@@ -1,10 +1,14 @@
 import React, { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
-import DesktopProfile from "../components/organisms/DesktopProfile";
-import MobileProfilePage from "./MobileProfilePage";
+import MobileMoodModulePage from "./MobileMoodModulePage";
+import DesktopMoodModule from "../components/organisms/DesktopMoodModule";
 
-const ProfilePage = () => {
+const DashBoardPage = () => {
+    const location = useLocation();
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+    const query = new URLSearchParams(location.search);
+    const selectedConversationId = query.get("id");
 
     useEffect(() => {
         const handleResize = () => {
@@ -21,9 +25,13 @@ const ProfilePage = () => {
             transition={{ duration: 0.5 }}
             className="p-8"
         >
-            {isMobile ? <MobileProfilePage /> : <DesktopProfile />}
+            {isMobile ? (
+                <MobileMoodModulePage selectedConversationId={selectedConversationId} />
+            ) : (
+                <DesktopMoodModule selectedConversationId={selectedConversationId} />
+            )}
         </motion.div>
     );
 };
 
-export default ProfilePage;
+export default DashBoardPage;

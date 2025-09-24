@@ -291,11 +291,10 @@ const MobileChatPage = ({ onBack, selectedConversationId }) => {
           <div key={conversation.id} className="relative overflow-hidden">
             {/* Swipe Actions Background */}
             <div
-              className={`absolute right-0 top-0 bottom-0 flex items-center transition-all duration-300 ${
-                swipedConversationId === conversation.id
+              className={`absolute right-0 top-0 bottom-0 flex items-center transition-all duration-300 ${swipedConversationId === conversation.id
                   ? "translate-x-0"
                   : "translate-x-full"
-              }`}>
+                }`}>
               <Button
                 variant="secondary"
                 size="sm"
@@ -363,11 +362,10 @@ const MobileChatPage = ({ onBack, selectedConversationId }) => {
               <div className="flex-1 min-w-0 ml-3">
                 <div className="flex items-center justify-between">
                   <p
-                    className={`font-medium truncate ${
-                      conversation.unreadCount > 0
+                    className={`font-medium truncate ${conversation.unreadCount > 0
                         ? "text-gray-900 dark:text-white"
                         : "text-gray-700 dark:text-gray-300"
-                    }`}>
+                      }`}>
                     {conversation.type === "dm"
                       ? conversation.participant.username
                       : conversation.name}
@@ -379,11 +377,10 @@ const MobileChatPage = ({ onBack, selectedConversationId }) => {
                   </span>
                 </div>
                 <p
-                  className={`text-sm truncate ${
-                    conversation.unreadCount > 0
+                  className={`text-sm truncate ${conversation.unreadCount > 0
                       ? "text-gray-600 dark:text-gray-400 font-medium"
                       : "text-gray-500 dark:text-gray-500"
-                  }`}>
+                    }`}>
                   {conversation.lastMessage ? (
                     <>
                       {conversation.type === "group" &&

@@ -1,14 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
-import MobileChatPage from "./MobileChatPage";
-import DesktopChatSimple from "../components/organisms/DesktopChatSimple";
+import DesktopNotificationsNew from "../components/organisms/DesktopKnowledgeModule";
+import MobileNotificationsPage from "./MobileKnowledgeModule";
 
-const ChatPage = () => {
-    const location = useLocation();
+const NotificationsPage = () => {
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
-    const query = new URLSearchParams(location.search);
-    const selectedConversationId = query.get("id");
 
     useEffect(() => {
         const handleResize = () => {
@@ -25,13 +21,9 @@ const ChatPage = () => {
             transition={{ duration: 0.5 }}
             className="p-8"
         >
-            {isMobile ? (
-                <MobileChatPage selectedConversationId={selectedConversationId} />
-            ) : (
-                <DesktopChatSimple selectedConversationId={selectedConversationId} />
-            )}
+            {isMobile ? <MobileNotificationsPage /> : <DesktopNotificationsNew />}
         </motion.div>
     );
 };
 
-export default ChatPage;
+export default NotificationsPage;

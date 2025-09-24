@@ -26,7 +26,7 @@ const LanguageSwitcher = ({ variant = "default", className = "" }) => {
       >
         <span className="text-lg">{currentLang.flag}</span>
         <ChevronUp
-          className={`w-4 h-4 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+          className={`w-4 h-4 transition-transform duration-200 ${isOpen ? "" : "rotate-180"}`}
         />
       </Button>
 
@@ -41,11 +41,13 @@ const LanguageSwitcher = ({ variant = "default", className = "" }) => {
               onClick={() => setIsOpen(false)}
             />
             <motion.div
-              initial={{ opacity: 0, y: 10, scale: 0.95 }}
+              initial={{ opacity: 0, y: -10, scale: 0.95 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
-              exit={{ opacity: 0, y: 10, scale: 0.95 }}
+              exit={{ opacity: 0, y: -10, scale: 0.95 }}
               transition={{ duration: 0.15 }}
-              className="absolute right-0 bottom-full mb-2 w-48 bg-white dark:bg-gray-500 rounded-xl shadow-xl border border-gray-200 dark:border-gray-700 py-2 z-[9999] max-h-64 overflow-y-auto"
+              className="absolute right-0 top-full mt-2 w-48 bg-white dark:bg-gray-500 
+             rounded-xl shadow-xl border border-gray-200 dark:border-gray-700 
+             py-2 z-[9999] max-h-64 overflow-y-auto"
             >
               {languages.map((language) => (
                 <motion.button
@@ -53,7 +55,8 @@ const LanguageSwitcher = ({ variant = "default", className = "" }) => {
                   whileHover={{ backgroundColor: "rgba(139, 92, 246, 0.1)" }}
                   whileTap={{ scale: 0.98 }}
                   onClick={() => handleLanguageChange(language.code)}
-                  className="w-full flex items-center justify-between px-4 py-3 text-left hover:bg-purple-50 dark:hover:bg-gray-700 transition-colors duration-150"
+                  className="w-full flex items-center justify-between px-4 py-3 text-left 
+                 hover:bg-purple-50 dark:hover:bg-gray-700 transition-colors duration-150"
                 >
                   <div className="flex items-center space-x-3">
                     <span className="text-lg">{language.flag}</span>
@@ -67,6 +70,7 @@ const LanguageSwitcher = ({ variant = "default", className = "" }) => {
                 </motion.button>
               ))}
             </motion.div>
+
           </>
         )}
       </AnimatePresence>

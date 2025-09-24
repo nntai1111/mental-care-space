@@ -3,11 +3,11 @@ import { useSelector } from "react-redux";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import AuthPage from "../pages/AuthPage";
 import HomePage from "../pages/HomePage";
-import ChatPage from "../pages/ChatPage";
-import NotificationsPage from "../pages/NotificationsPage";
-import ProfilePage from "../pages/ProfilePage";
-import IconEmotion from "../pages/IconEmotion";
-import SettingsPage from "../pages/SettingsPage";
+import MoodModulePage from "../pages/MoodModulePage";
+import KnowledgeModulePage from "../pages/KnowledgeModulePage";
+import ChallengeModulePage from "../pages/ChallengeModulePage";
+import ProgressModulePage from "../pages/ProgressModulePage";
+import WellbeingToolsPage from "../pages/WellbeingToolsPage";
 import PostDetailPage from "../pages/PostDetailPage";
 import Layout from "../components/layouts/Layout";
 import LoadingSpinner from "../components/atoms/LoadingSpinner";
@@ -44,15 +44,15 @@ function AppRouter() {
                     />
                     <Route
                         path="/chat"
-                        element={isAuthenticated ? <ChatPage /> : <Navigate to="/auth" />}
+                        element={isAuthenticated ? <MoodModulePage /> : <Navigate to="/auth" />}
                     />
                     <Route
                         path="/notifications"
-                        element={isAuthenticated ? <NotificationsPage /> : <Navigate to="/auth" />}
+                        element={isAuthenticated ? <KnowledgeModulePage /> : <Navigate to="/auth" />}
                     />
                     <Route
                         path="/profile"
-                        element={isAuthenticated ? <ProfilePage /> : <Navigate to="/auth" />}
+                        element={isAuthenticated ? <ChallengeModulePage /> : <Navigate to="/auth" />}
                     />
                     <Route
                         path="/wellness-hub"
@@ -60,11 +60,11 @@ function AppRouter() {
                     />
                     <Route
                         path="/settings"
-                        element={isAuthenticated ? <SettingsPage /> : <Navigate to="/auth" />}
+                        element={isAuthenticated ? <WellbeingToolsPage /> : <Navigate to="/auth" />}
                     />
                     <Route
                         path="/icons"
-                        element={isAuthenticated ? <IconEmotion /> : <Navigate to="/auth" />}
+                        element={isAuthenticated ? <ProgressModulePage /> : <Navigate to="/auth" />}
                     />
                     <Route
                         path="/"

@@ -166,9 +166,8 @@ const MobileNotificationsPage = ({ onBack }) => {
             <motion.div
               key={notification.id}
               whileTap={{ scale: 0.98 }}
-              className={`flex items-start p-4 border-b border-gray-100 dark:border-gray-800 cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800/50 ${
-                !notification.read ? "bg-purple-50 dark:bg-purple-900/10" : ""
-              }`}>
+              className={`flex items-start p-4 border-b border-gray-100 dark:border-gray-800 cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800/50 ${!notification.read ? "bg-purple-50 dark:bg-purple-900/10" : ""
+                }`}>
               <div className="relative mr-3">
                 <Avatar
                   username={notification.user.username}
