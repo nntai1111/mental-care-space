@@ -2,6 +2,7 @@
     {
         "id": 2015,
         "name": "Các Mô-đun Học Tập Tự Hướng Dẫn",
+        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus_dev/8975d640-89fb-4845-b301-b94f32a0c7bd_file.jpg",
         "modules": [
             {
                 "id": 2001,
@@ -9,12 +10,43 @@
                 "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus_dev/8975d640-89fb-4845-b301-b94f32a0c7bd_file.jpg",
                 "totalDuration": 56,
                 "completedDuration": 56,
-                "description": "Mô-đun này được thiết kế để hỗ trợ nếu bạn thường xuyên cảm thấy buồn bã, mất động lực với những việc từng yêu thích và cảm thấy mọi thứ vượt quá khả năng kiểm soát. Nó giúp bạn nhận biết dấu hiệu và triệu chứng của trầm cảm, hiểu nguyên nhân và cách duy trì vấn đề, đồng thời học các kỹ thuật quản lý triệu chứng. Lưu ý: Mô-đun này chỉ mang tính thông tin và giáo dục, không thay thế lời khuyên, chẩn đoán hay điều trị chuyên môn. Nếu bạn gặp khó khăn, hãy tìm sự hỗ trợ từ chuyên gia y tế.",
+                "description": "Mô-đun này được thiết kế để hỗ trợ nếu bạn thường xuyên cảm thấy buồn bã, mất động lực với những việc từng yêu thích và cảm thấy mọi thứ vượt quá khả năng kiểm soát.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2025-08-20T10:22:14.457",
                 "wellnessCentreGroupModuleId": 2015,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 200101,
+                        "title": "Hiểu Biết Trầm Cảm",
+                        "content": "Trầm cảm không chỉ là cảm giác buồn bã thông thường. Bài viết này giải thích các dấu hiệu, triệu chứng và cách nhận biết trầm cảm, cùng với các bước đầu tiên để quản lý.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus_dev/8975d640-89fb-4845-b301-b94f32a0c7bd_file.jpg",
+                        "author": "TS. Nguyễn Văn A",
+                        "publishedAt": "2025-08-20T10:00:00.000",
+                        "totalDuration": 19,
+                        "completedDuration": 19
+                    },
+                    {
+                        "id": 200102,
+                        "title": "Kỹ Thuật Quản Lý Trầm Cảm",
+                        "content": "Học các kỹ thuật như thiền chánh niệm và viết nhật ký để quản lý triệu chứng trầm cảm. Bài viết cung cấp các bước thực hành đơn giản.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus_dev/8975d640-89fb-4845-b301-b94f32a0c7bd_file.jpg",
+                        "author": "TS. Trần Thị B",
+                        "publishedAt": "2025-08-20T10:10:00.000",
+                        "totalDuration": 19,
+                        "completedDuration": 19
+                    },
+                    {
+                        "id": 200103,
+                        "title": "Xây Dựng Thói Quen Tích Cực",
+                        "content": "Thói quen tích cực có thể giúp cải thiện tâm trạng và giảm triệu chứng trầm cảm. Bài viết này hướng dẫn cách xây dựng thói quen lành mạnh như tập thể dục và giao tiếp xã hội.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus_dev/8975d640-89fb-4845-b301-b94f32a0c7bd_file.jpg",
+                        "author": "TS. Phạm Minh C",
+                        "publishedAt": "2025-08-20T10:15:00.000",
+                        "totalDuration": 18,
+                        "completedDuration": 18
+                    }
+                ]
             },
             {
                 "id": 2002,
@@ -22,12 +54,43 @@
                 "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus_dev/7cdbe965-00ce-4f2c-82f7-082fa515ad17_file.jpg",
                 "totalDuration": 54,
                 "completedDuration": 17,
-                "description": "Mô-đun này giúp nếu bạn cảm thấy sợ hãi hoặc lo lắng trong các tình huống xã hội, tránh tham gia và ảnh hưởng đến lòng tự trọng. Nó hỗ trợ nhận biết dấu hiệu và triệu chứng của lo lắng xã hội, hiểu nguyên nhân và cách duy trì vấn đề, đồng thời học các kỹ thuật quản lý triệu chứng. Lưu ý: Mô-đun này chỉ mang tính thông tin và giáo dục, không thay thế lời khuyên, chẩn đoán hay điều trị chuyên môn. Nếu bạn gặp khó khăn, hãy tìm sự hỗ trợ từ chuyên gia y tế.",
+                "description": "Mô-đun này giúp nếu bạn cảm thấy sợ hãi hoặc lo lắng trong các tình huống xã hội, tránh tham gia và ảnh hưởng đến lòng tự trọng.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2025-08-20T10:23:59.337",
                 "wellnessCentreGroupModuleId": 2015,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 200201,
+                        "title": "Nhận Biết Lo Lắng Xã Hội",
+                        "content": "Lo lắng xã hội có thể khiến bạn tránh các sự kiện đông người. Bài viết này giải thích cách nhận biết và hiểu nguyên nhân của lo lắng xã hội.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus_dev/7cdbe965-00ce-4f2c-82f7-082fa515ad17_file.jpg",
+                        "author": "TS. Nguyễn Văn A",
+                        "publishedAt": "2025-08-20T10:05:00.000",
+                        "totalDuration": 18,
+                        "completedDuration": 6
+                    },
+                    {
+                        "id": 200202,
+                        "title": "Kỹ Thuật Giảm Lo Lắng Xã Hội",
+                        "content": "Học cách kiểm soát lo lắng xã hội thông qua các kỹ thuật như luyện tập giao tiếp và đối mặt dần với các tình huống xã hội.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus_dev/7cdbe965-00ce-4f2c-82f7-082fa515ad17_file.jpg",
+                        "author": "TS. Trần Thị B",
+                        "publishedAt": "2025-08-20T10:10:00.000",
+                        "totalDuration": 18,
+                        "completedDuration": 6
+                    },
+                    {
+                        "id": 200203,
+                        "title": "Xây Dựng Tự Tin Trong Giao Tiếp",
+                        "content": "Tự tin trong giao tiếp xã hội giúp giảm lo lắng. Bài viết này cung cấp các mẹo thực hành để cải thiện kỹ năng giao tiếp và lòng tự trọng.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus_dev/7cdbe965-00ce-4f2c-82f7-082fa515ad17_file.jpg",
+                        "author": "TS. Phạm Minh C",
+                        "publishedAt": "2025-08-20T10:15:00.000",
+                        "totalDuration": 18,
+                        "completedDuration": 5
+                    }
+                ]
             },
             {
                 "id": 2003,
@@ -35,12 +98,33 @@
                 "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus_dev/4c72f0fa-a3cd-4a45-83b1-c5b5c9e3c765_file.jpg",
                 "totalDuration": 63,
                 "completedDuration": 0,
-                "description": "Mô-đun này hỗ trợ nếu bạn lo lắng thường xuyên và cảm thấy căng thẳng hoặc stress liên tục. Nó đề cập đến rối loạn lo âu lan tỏa (GAD) nhưng bất kỳ ai lo lắng quá mức đều có thể thấy hữu ích. Mô-đun giúp nhận biết lo lắng bất thường, nguyên nhân và cách duy trì, đồng thời học kỹ thuật quản lý lo lắng. Lưu ý: Mô-đun này chỉ mang tính thông tin và giáo dục, không thay thế lời khuyên, chẩn đoán hay điều trị chuyên môn. Nếu bạn gặp khó khăn, hãy tìm sự hỗ trợ từ chuyên gia y tế.",
+                "description": "Mô-đun này hỗ trợ nếu bạn lo lắng thường xuyên và cảm thấy căng thẳng hoặc stress liên tục.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2025-08-20T10:25:42.683",
-                "wellnessCentreGroupModuleId": 2015,
-                "sections": []
+                "wellnessCentreGroupModuleId348": 2015,
+                "articles": [
+                    {
+                        "id": 200301,
+                        "title": "Chiến Lược Đối Phó Với Lo Lắng",
+                        "content": "Bài viết này cung cấp các chiến lược thực tế như kỹ thuật thở sâu và lập kế hoạch thời gian để giảm thiểu lo lắng hàng ngày.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus_dev/4c72f0fa-a3cd-4a45-83b1-c5b5c9e3c765_file.jpg",
+                        "author": "TS. Phạm Minh C",
+                        "publishedAt": "2025-08-20T10:15:00.000",
+                        "totalDuration": 32,
+                        "completedDuration": 0
+                    },
+                    {
+                        "id": 200302,
+                        "title": "Thiền Định Để Giảm Lo Lắng",
+                        "content": "Thiền định là một công cụ mạnh mẽ để quản lý lo lắng. Bài viết này hướng dẫn các bài tập thiền cơ bản để làm dịu tâm trí.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus_dev/4c72f0fa-a3cd-4a45-83b1-c5b5c9e3c765_file.jpg",
+                        "author": "TS. Nguyễn Thị D",
+                        "publishedAt": "2025-08-20T10:20:00.000",
+                        "totalDuration": 31,
+                        "completedDuration": 0
+                    }
+                ]
             },
             {
                 "id": 2004,
@@ -48,12 +132,33 @@
                 "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus_dev/40db0c19-97c7-4c42-9acb-f43d8eee35d6_file.jpg",
                 "totalDuration": 68,
                 "completedDuration": 0,
-                "description": "Mô-đun này hỗ trợ nếu bạn thường xuyên gặp cơn hoảng loạn, không rõ nguyên nhân hoặc cách đối phó. Nó đề cập đến rối loạn hoảng loạn nhưng bất kỳ ai gặp cơn hoảng loạn đều có thể thấy hữu ích. Mô-đun giúp nhận biết dấu hiệu và triệu chứng, hiểu nguyên nhân và cách duy trì, đồng thời học kỹ thuật quản lý. Lưu ý: Mô-đun này chỉ mang tính thông tin và giáo dục, không thay thế lời khuyên, chẩn đoán hay điều trị chuyên môn. Nếu bạn gặp khó khăn, hãy tìm sự hỗ trợ từ chuyên gia y tế.",
+                "description": "Mô-đun này hỗ trợ nếu bạn thường xuyên gặp cơn hoảng loạn, không rõ nguyên nhân hoặc cách đối phó.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2025-08-20T10:26:38.99",
                 "wellnessCentreGroupModuleId": 2015,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 200401,
+                        "title": "Hiểu và Quản Lý Cơn Hoảng Loạn",
+                        "content": "Cơn hoảng loạn có thể xuất hiện đột ngột và đáng sợ. Bài viết này giải thích các dấu hiệu nhận biết và cách kiểm soát chúng thông qua kỹ thuật thư giãn.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus_dev/40db0c19-97c7-4c42-9acb-f43d8eee35d6_file.jpg",
+                        "author": "TS. Nguyễn Thị D",
+                        "publishedAt": "2025-08-20T10:20:00.000",
+                        "totalDuration": 34,
+                        "completedDuration": 0
+                    },
+                    {
+                        "id": 200402,
+                        "title": "Kỹ Thuật Grounding Cho Cơn Hoảng Loạn",
+                        "content": "Kỹ thuật grounding giúp bạn lấy lại bình tĩnh trong cơn hoảng loạn. Bài viết này cung cấp các bước thực hành đơn giản để áp dụng ngay lập tức.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus_dev/40db0c19-97c7-4c42-9acb-f43d8eee35d6_file.jpg",
+                        "author": "TS. Lê Văn E",
+                        "publishedAt": "2025-08-20T10:25:00.000",
+                        "totalDuration": 34,
+                        "completedDuration": 0
+                    }
+                ]
             },
             {
                 "id": 2005,
@@ -61,12 +166,33 @@
                 "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus_dev/5abe4937-6a21-4b31-8ae2-f71334741e7c_file.jpg",
                 "totalDuration": 40,
                 "completedDuration": 4,
-                "description": "Mô-đun này hỗ trợ nếu bạn lo lắng thường xuyên về khả năng mắc hoặc phát triển bệnh nghiêm trọng, ảnh hưởng đến cuộc sống. Nó giúp nhận biết dấu hiệu và triệu chứng của lo lắng về sức khỏe, hiểu nguyên nhân và cách duy trì, đồng thời học kỹ thuật quản lý. Lưu ý: Mô-đun này chỉ mang tính thông tin và giáo dục, không thay thế lời khuyên, chẩn đoán hay điều trị chuyên môn. Nếu bạn gặp khó khăn, hãy tìm sự hỗ trợ từ chuyên gia y tế.",
+                "description": "Mô-đun này hỗ trợ nếu bạn lo lắng thường xuyên về khả năng mắc hoặc phát triển bệnh nghiêm trọng.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2025-08-20T10:28:12.467",
                 "wellnessCentreGroupModuleId": 2015,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 200501,
+                        "title": "Giảm Lo Lắng Về Sức Khỏe",
+                        "content": "Lo lắng về sức khỏe có thể ảnh hưởng đến chất lượng cuộc sống. Bài viết này hướng dẫn cách nhận biết suy nghĩ không lành mạnh và thay thế bằng tư duy tích cực.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus_dev/5abe4937-6a21-4b31-8ae2-f71334741e7c_file.jpg",
+                        "author": "TS. Lê Văn E",
+                        "publishedAt": "2025-08-20T10:25:00.000",
+                        "totalDuration": 20,
+                        "completedDuration": 2
+                    },
+                    {
+                        "id": 200502,
+                        "title": "Kiểm Soát Suy Nghĩ Tiêu Cực Về Sức Khỏe",
+                        "content": "Suy nghĩ tiêu cực về sức khỏe có thể dẫn đến lo âu kéo dài. Bài viết này cung cấp các kỹ thuật nhận thức để kiểm soát và giảm thiểu lo lắng.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus_dev/5abe4937-6a21-4b31-8ae2-f71334741e7c_file.jpg",
+                        "author": "TS. Trần Văn F",
+                        "publishedAt": "2025-08-20T10:30:00.000",
+                        "totalDuration": 20,
+                        "completedDuration": 2
+                    }
+                ]
             },
             {
                 "id": 2006,
@@ -74,12 +200,33 @@
                 "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus_dev/c8ef0c9c-2fad-4d48-890e-ec8e7c1beede_file.jpg",
                 "totalDuration": 60,
                 "completedDuration": 0,
-                "description": "Mô-đun này hỗ trợ nếu bạn gặp khó khăn với suy nghĩ ám ảnh, hình ảnh hoặc hành vi cưỡng chế. Nó giúp nhận biết dấu hiệu và triệu chứng của rối loạn ám ảnh cưỡng chế (OCD), hiểu nguyên nhân và cách duy trì, đồng thời học kỹ thuật quản lý. Lưu ý: Mô-đun này chỉ mang tính thông tin và giáo dục, không thay thế lời khuyên, chẩn đoán hay điều trị chuyên môn. Nếu bạn gặp khó khăn, hãy tìm sự hỗ trợ từ chuyên gia y tế.",
+                "description": "Mô-đun này hỗ trợ nếu bạn gặp khó khăn với suy nghĩ ám ảnh, hình ảnh hoặc hành vi cưỡng chế.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2025-08-20T10:29:23.57",
                 "wellnessCentreGroupModuleId": 2015,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 200601,
+                        "title": "Hiểu Biết Rối Loạn Ốc Đảo (OCD)",
+                        "content": "Rối loạn ám ảnh cưỡng chế (OCD) liên quan đến suy nghĩ và hành vi lặp lại. Bài viết này giải thích nguyên nhân và các bước đầu tiên để quản lý OCD.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus_dev/c8ef0c9c-2fad-4d48-890e-ec8e7c1beede_file.jpg",
+                        "author": "TS. Trần Văn F",
+                        "publishedAt": "2025-08-20T10:30:00.000",
+                        "totalDuration": 30,
+                        "completedDuration": 0
+                    },
+                    {
+                        "id": 200602,
+                        "title": "Kỹ Thuật Đối Phó Với OCD",
+                        "content": "Bài viết này giới thiệu các kỹ thuật như liệu pháp tiếp xúc và ngăn chặn phản ứng (ERP) để quản lý các triệu chứng OCD hiệu quả.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus_dev/c8ef0c9c-2fad-4d48-890e-ec8e7c1beede_file.jpg",
+                        "author": "TS. Nguyễn Thị G",
+                        "publishedAt": "2025-08-20T10:35:00.000",
+                        "totalDuration": 30,
+                        "completedDuration": 0
+                    }
+                ]
             },
             {
                 "id": 2007,
@@ -87,18 +234,40 @@
                 "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus_dev/749d7d59-964d-4623-a91b-bac61fcd0aa9_file.jpg",
                 "totalDuration": 53,
                 "completedDuration": 0,
-                "description": "Mô-đun này hỗ trợ nếu bạn trải qua sự kiện chấn thương và gặp khó khăn trong việc đối phó sau đó. Nó giúp nhận biết dấu hiệu và triệu chứng của rối loạn stress sau chấn thương (PTSD), hiểu nguyên nhân và cách duy trì, đồng thời học kỹ thuật quản lý. Lưu ý: Mô-đun này chỉ mang tính thông tin và giáo dục, không thay thế lời khuyên, chẩn đoán hay điều trị chuyên môn. Nếu bạn gặp khó khăn, hãy tìm sự hỗ trợ từ chuyên gia y tế.",
+                "description": "Mô-đun này hỗ trợ nếu bạn trải qua sự kiện chấn thương và gặp khó khăn trong việc đối phó sau đó.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2025-08-20T10:30:10.363",
                 "wellnessCentreGroupModuleId": 2015,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 200701,
+                        "title": "Đối Phó Với PTSD",
+                        "content": "Rối loạn stress sau chấn thương có thể gây ra hồi tưởng và lo âu. Bài viết này cung cấp các kỹ thuật như grounding và hỗ trợ chuyên môn để quản lý triệu chứng.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus_dev/749d7d59-964d-4623-a91b-bac61fcd0aa9_file.jpg",
+                        "author": "TS. Nguyễn Thị G",
+                        "publishedAt": "2025-08-20T10:35:00.000",
+                        "totalDuration": 27,
+                        "completedDuration": 0
+                    },
+                    {
+                        "id": 200702,
+                        "title": "Hỗ Trợ Xã Hội Trong PTSD",
+                        "content": "Sự hỗ trợ từ gia đình và bạn bè đóng vai trò quan trọng trong việc quản lý PTSD. Bài viết này hướng dẫn cách xây dựng mạng lưới hỗ trợ.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus_dev/749d7d59-964d-4623-a91b-bac61fcd0aa9_file.jpg",
+                        "author": "TS. Phạm Minh C",
+                        "publishedAt": "2025-08-20T10:40:00.000",
+                        "totalDuration": 26,
+                        "completedDuration": 0
+                    }
+                ]
             }
         ]
     },
     {
         "id": 2044,
         "name": "Sức Khỏe & Chăm Sóc Bản Thân",
+        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/446ee84f-04a3-4246-8e3a-f37df0122001_file.jpg",
         "modules": [
             {
                 "id": 2029,
@@ -106,12 +275,33 @@
                 "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/446ee84f-04a3-4246-8e3a-f37df0122001_file.jpg",
                 "totalDuration": 15,
                 "completedDuration": 15,
-                "description": "Nếu bạn muốn cải thiện kỹ năng đồng cảm hoặc lan tỏa sự tử tế, đây là lúc tốt để thực hành trong cuộc sống hàng ngày. Bài viết này sẽ giới thiệu các loại đồng cảm, lợi ích cho bạn và người xung quanh, cùng 9 mẹo nâng cao kỹ năng này.",
+                "description": "Nếu bạn muốn cải thiện kỹ năng đồng cảm hoặc lan tỏa sự tử tế, đây là lúc tốt để thực hành trong cuộc sống hàng ngày.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2025-02-18T10:10:56.07",
                 "wellnessCentreGroupModuleId": 2044,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 202901,
+                        "title": "Đồng Cảm Là Gì?",
+                        "content": "Bài viết này giải thích các loại đồng cảm và cách chúng ảnh hưởng đến mối quan hệ của bạn với người khác.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/446ee84f-04a3-4246-8e3a-f37df0122001_file.jpg",
+                        "author": "TS. Lê Thị C",
+                        "publishedAt": "2025-02-18T10:00:00.000",
+                        "totalDuration": 8,
+                        "completedDuration": 8
+                    },
+                    {
+                        "id": 202902,
+                        "title": "Thực Hành Đồng Cảm Trong Cuộc Sống",
+                        "content": "Đồng cảm có thể được rèn luyện thông qua các hành động đơn giản. Bài viết này cung cấp 9 mẹo thực tế để phát triển kỹ năng đồng cảm.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/446ee84f-04a3-4246-8e3a-f37df0122001_file.jpg",
+                        "author": "TS. Phạm Thị H",
+                        "publishedAt": "2025-02-18T10:05:00.000",
+                        "totalDuration": 7,
+                        "completedDuration": 7
+                    }
+                ]
             },
             {
                 "id": 2030,
@@ -119,25 +309,67 @@
                 "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/8f144d40-f96a-43d0-a804-2106e17ab3d0_file.jpg",
                 "totalDuration": 10,
                 "completedDuration": 10,
-                "description": "Bạn đã bao giờ dừng lại để nhận biết điều xảy ra xung quanh và trong bạn chưa? Cuộc sống đầy phiền nhiễu khiến chúng ta dễ dàng lao qua ngày mà không tập trung. Tâm trí đầy ắp nhưng không có nghĩa là chánh niệm. Hãy cùng khám phá định nghĩa chánh niệm và cách thực hành trong đời sống.",
+                "description": "Bạn đã bao giờ dừng lại để nhận biết điều xảy ra xung quanh và trong bạn chưa? Hãy khám phá định nghĩa chánh niệm.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2023-06-30T10:23:28.5",
                 "wellnessCentreGroupModuleId": 2044,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 203001,
+                        "title": "Thực Hành Chánh Niệm Hàng Ngày",
+                        "content": "Chánh niệm giúp bạn sống trong hiện tại và giảm stress. Bài viết này hướng dẫn các bài tập chánh niệm đơn giản để áp dụng mỗi ngày.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/8f144d40-f96a-43d0-a804-2106e17ab3d0_file.jpg",
+                        "author": "TS. Phạm Thị H",
+                        "publishedAt": "2023-06-30T10:25:00.000",
+                        "totalDuration": 5,
+                        "completedDuration": 5
+                    },
+                    {
+                        "id": 203002,
+                        "title": "Lợi Ích Của Chánh Niệm",
+                        "content": "Chánh niệm không chỉ giảm stress mà còn cải thiện tập trung và sức khỏe tinh thần. Bài viết này khám phá các lợi ích khoa học của chánh niệm.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/8f144d40-f96a-43d0-a804-2106e17ab3d0_file.jpg",
+                        "author": "TS. Nguyễn Văn A",
+                        "publishedAt": "2023-06-30T10:30:00.000",
+                        "totalDuration": 5,
+                        "completedDuration": 5
+                    }
+                ]
             },
             {
                 "id": 2032,
-                "name": "Cách tăng cường lòng tự trọng: Mẹo để cảm thấy 100%",
+                "name": "Cách tăng cường lòng tự trọng",
                 "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/fbe5320a-7d5c-4ba8-8421-95273205d63e_file.jpg",
                 "totalDuration": 15,
                 "completedDuration": 0,
-                "description": "Bạn có thể nghĩ lòng tự trọng chỉ liên quan đến hình ảnh trong gương, nhưng nó còn hơn thế. Cách chúng ta nhìn nhận bản thân ảnh hưởng lớn đến sức khỏe tinh thần. Cải thiện tự trọng giúp vượt qua ngày tồi tệ và cảm thấy hạnh phúc hơn. Hãy thử 8 mẹo để nâng cao lòng tự trọng.",
+                "description": "Cải thiện tự trọng giúp vượt qua ngày tồi tệ và cảm thấy hạnh phúc hơn.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2023-06-27T11:58:55.683",
                 "wellnessCentreGroupModuleId": 2044,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 203201,
+                        "title": "Hiểu Biết Lòng Tự Trọng",
+                        "content": "Lòng tự trọng ảnh hưởng đến cách bạn nhìn nhận bản thân. Bài viết này giải thích nguồn gốc và cách xây dựng lòng tự trọng lành mạnh.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/fbe5320a-7d5c-4ba8-8421-95273205d63e_file.jpg",
+                        "author": "TS. Lê Thị C",
+                        "publishedAt": "2023-06-27T12:00:00.000",
+                        "totalDuration": 8,
+                        "completedDuration": 0
+                    },
+                    {
+                        "id": 203202,
+                        "title": "Thực Hành Tự Yêu Thương",
+                        "content": "Yêu thương bản thân là nền tảng của lòng tự trọng. Bài viết này cung cấp các bài tập thực hành để nâng cao giá trị bản thân.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/fbe5320a-7d5c-4ba8-8421-95273205d63e_file.jpg",
+                        "author": "TS. Phạm Minh C",
+                        "publishedAt": "2023-06-27T12:05:00.000",
+                        "totalDuration": 7,
+                        "completedDuration": 0
+                    }
+                ]
             },
             {
                 "id": 2031,
@@ -145,12 +377,33 @@
                 "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/67d5d3c3-7ad0-4730-bcd7-58c99cd48e95_file.jpg",
                 "totalDuration": 15,
                 "completedDuration": 0,
-                "description": "Hầu hết mọi người đồng ý rằng đặt tiêu chuẩn cao và cố gắng hết mình là điều tốt. Một số tự gọi mình là 'hoàn hảo', nghĩa là phấn đấu cho sự xuất sắc. Tuy nhiên, hoàn hảo lâm sàng lại khác. Hãy đọc để biết cách giữ sự 'hoàn hảo' ở mức lành mạnh.",
+                "description": "Hãy đọc để biết cách giữ sự 'hoàn hảo' ở mức lành mạnh.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2023-06-28T15:20:21.783",
                 "wellnessCentreGroupModuleId": 2044,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 203101,
+                        "title": "Chủ Nghĩa Hoàn Hảo Là Gì?",
+                        "content": "Chủ nghĩa hoàn hảo có thể thúc đẩy hoặc gây hại. Bài viết này giải thích khi nào nó trở thành vấn đề và cách nhận biết.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/67d5d3c3-7ad0-4730-bcd7-58c99cd48e95_file.jpg",
+                        "author": "TS. Nguyễn Văn A",
+                        "publishedAt": "2023-06-28T15:25:00.000",
+                        "totalDuration": 8,
+                        "completedDuration": 0
+                    },
+                    {
+                        "id": 203102,
+                        "title": "Quản Lý Chủ Nghĩa Hoàn Hảo",
+                        "content": "Học cách cân bằng giữa việc phấn đấu và chấp nhận bản thân. Bài viết này cung cấp các mẹo để kiểm soát xu hướng hoàn hảo quá mức.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/67d5d3c3-7ad0-4730-bcd7-58c99cd48e95_file.jpg",
+                        "author": "TS. Trần Thị B",
+                        "publishedAt": "2023-06-28T15:30:00.000",
+                        "totalDuration": 7,
+                        "completedDuration": 0
+                    }
+                ]
             },
             {
                 "id": 2033,
@@ -158,12 +411,33 @@
                 "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/4bf07797-3b28-43bc-bc04-360a8a5d0734_file.jpg",
                 "totalDuration": 10,
                 "completedDuration": 0,
-                "description": "Bắt đầu điều mới, như dự án, mục tiêu cuộc sống hay thói quen, có thể rất khó. Bước đầu thường là thử thách lớn nhất. Nhiều người trì hoãn và khó tìm động lực. Hãy khám phá lý do và chiến lược vượt qua rào cản này.",
+                "description": "Bắt đầu điều mới, như dự án hay thói quen, có thể rất khó. Hãy khám phá lý do và chiến lược vượt qua.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2023-06-28T15:20:46.69",
                 "wellnessCentreGroupModuleId": 2044,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 203301,
+                        "title": "Vượt Qua Rào Cản Ban Đầu",
+                        "content": "Bước đầu tiên thường khó khăn do sợ thất bại hoặc thiếu động lực. Bài viết này cung cấp các chiến lược để bắt đầu dễ dàng hơn.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/4bf07797-3b28-43bc-bc04-360a8a5d0734_file.jpg",
+                        "author": "TS. Lê Thị C",
+                        "publishedAt": "2023-06-28T15:25:00.000",
+                        "totalDuration": 5,
+                        "completedDuration": 0
+                    },
+                    {
+                        "id": 203302,
+                        "title": "Tạo Động Lực Cho Bước Đầu Tiên",
+                        "content": "Động lực là chìa khóa để bắt đầu. Bài viết này hướng dẫn cách tạo mục tiêu nhỏ và xây dựng động lực để hành động.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/4bf07797-3b28-43bc-bc04-360a8a5d0734_file.jpg",
+                        "author": "TS. Phạm Minh C",
+                        "publishedAt": "2023-06-28T15:30:00.000",
+                        "totalDuration": 5,
+                        "completedDuration": 0
+                    }
+                ]
             },
             {
                 "id": 2034,
@@ -171,18 +445,40 @@
                 "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/4b385687-9f37-4097-afe2-087f6d7127ef_file.jpg",
                 "totalDuration": 15,
                 "completedDuration": 0,
-                "description": "Dù sống trong thế giới đề cao ngoại hướng và giao tiếp liên tục, nhiều người nội tâm, nhút nhát hoặc lo lắng xã hội. Những thuật ngữ này thường bị nhầm lẫn. Hãy khám phá sự khác biệt giữa nội tâm, nhút nhát và lo lắng xã hội để hiểu nhu cầu và nuôi dưỡng sức khỏe bản thân.",
+                "description": "Khám phá sự khác biệt giữa nội tâm, nhút nhát và lo lắng xã hội để hiểu nhu cầu của bạn.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2023-06-27T11:57:27.15",
                 "wellnessCentreGroupModuleId": 2044,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 203401,
+                        "title": "Phân Biệt Nội Tâm và Lo Lắng Xã Hội",
+                        "content": "Nội tâm, nhút nhát và lo lắng xã hội có những điểm khác biệt quan trọng. Bài viết này giúp bạn nhận biết và hiểu rõ bản thân.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/4b385687-9f37-4097-afe2-087f6d7127ef_file.jpg",
+                        "author": "TS. Nguyễn Văn A",
+                        "publishedAt": "2023-06-27T12:00:00.000",
+                        "totalDuration": 8,
+                        "completedDuration": 0
+                    },
+                    {
+                        "id": 203402,
+                        "title": "Hỗ Trợ Cho Người Nội Tâm",
+                        "content": "Người nội tâm có thể phát triển trong các tình huống xã hội. Bài viết này cung cấp các mẹo để tận dụng thế mạnh của sự nội tâm.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/4b385687-9f37-4097-afe2-087f6d7127ef_file.jpg",
+                        "author": "TS. Trần Thị B",
+                        "publishedAt": "2023-06-27T12:05:00.000",
+                        "totalDuration": 7,
+                        "completedDuration": 0
+                    }
+                ]
             }
         ]
     },
     {
         "id": 2043,
         "name": "Ngủ & Sức Khỏe",
+        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/169f4f04-f6a5-426e-adbb-0a9d35e86af9_file.jpg",
         "modules": [
             {
                 "id": 2026,
@@ -190,12 +486,33 @@
                 "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/169f4f04-f6a5-426e-adbb-0a9d35e86af9_file.jpg",
                 "totalDuration": 15,
                 "completedDuration": 0,
-                "description": "Nhiều người lo lắng về giấc ngủ, khả năng đối phó khi thiếu ngủ và ảnh hưởng đến sức khỏe. Hãy khám phá bí ẩn của giấc ngủ: tại sao cần, ngủ bao nhiêu là đủ, điều gì xảy ra khi ngủ, và một số mẹo để ngủ ngon hơn.",
+                "description": "Khám phá bí ẩn của giấc ngủ: tại sao cần, ngủ bao nhiêu là đủ, và mẹo để ngủ ngon hơn.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2023-06-20T16:41:10.84",
                 "wellnessCentreGroupModuleId": 2043,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 202601,
+                        "title": "Tầm Quan Trọng Của Giấc Ngủ",
+                        "content": "Giấc ngủ ảnh hưởng đến sức khỏe thể chất và tinh thần. Bài viết này giải thích tại sao giấc ngủ là yếu tố quan trọng và cách cải thiện chất lượng ngủ.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/169f4f04-f6a5-426e-adbb-0a9d35e86af9_file.jpg",
+                        "author": "TS. Lê Thị C",
+                        "publishedAt": "2023-06-20T16:45:00.000",
+                        "totalDuration": 8,
+                        "completedDuration": 0
+                    },
+                    {
+                        "id": 202602,
+                        "title": "Thói Quen Trước Giờ Ngủ",
+                        "content": "Thói quen trước giờ ngủ có thể cải thiện chất lượng giấc ngủ. Bài viết này cung cấp các mẹo để thiết lập thói quen ngủ lành mạnh.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/169f4f04-f6a5-426e-adbb-0a9d35e86af9_file.jpg",
+                        "author": "TS. Phạm Minh C",
+                        "publishedAt": "2023-06-20T16:50:00.000",
+                        "totalDuration": 7,
+                        "completedDuration": 0
+                    }
+                ]
             },
             {
                 "id": 2027,
@@ -203,12 +520,33 @@
                 "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/2ef4d0c8-07e2-4645-8118-41aa0a8150bf_file.jpg",
                 "totalDuration": 15,
                 "completedDuration": 0,
-                "description": "Stress và mất ngủ liên quan chặt chẽ. Điều này có thể do lo lắng trong tâm trí và hormone stress trong cơ thể. Kỹ thuật thư giãn kích hoạt phản ứng tự nhiên của cơ thể, giúp cải thiện giấc ngủ. Hãy thử thiền chánh niệm, thư giãn cơ bắp tiến triển và bài tập thở.",
+                "description": "Kỹ thuật thư giãn kích hoạt phản ứng tự nhiên của cơ thể, giúp cải thiện giấc ngủ.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2023-06-21T08:00:15.377",
                 "wellnessCentreGroupModuleId": 2043,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 202701,
+                        "title": "Thư Giãn Để Ngủ Ngon",
+                        "content": "Các kỹ thuật thư giãn như thiền và yoga nhẹ có thể giúp bạn ngủ ngon hơn. Bài viết này hướng dẫn cách áp dụng chúng.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/2ef4d0c8-07e2-4645-8118-41aa0a8150bf_file.jpg",
+                        "author": "TS. Nguyễn Văn A",
+                        "publishedAt": "2023-06-21T08:05:00.000",
+                        "totalDuration": 8,
+                        "completedDuration": 0
+                    },
+                    {
+                        "id": 202702,
+                        "title": "Giảm Stress Trước Giờ Ngủ",
+                        "content": "Stress là kẻ thù của giấc ngủ. Bài viết này cung cấp các phương pháp giảm stress để chuẩn bị cho giấc ngủ ngon.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/2ef4d0c8-07e2-4645-8118-41aa0a8150bf_file.jpg",
+                        "author": "TS. Trần Thị B",
+                        "publishedAt": "2023-06-21T08:10:00.000",
+                        "totalDuration": 7,
+                        "completedDuration": 0
+                    }
+                ]
             },
             {
                 "id": 2028,
@@ -216,12 +554,33 @@
                 "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/6df8cb4f-51ae-4833-9765-9e8da9a72b94_file.jpg",
                 "totalDuration": 10,
                 "completedDuration": 0,
-                "description": "Bài tập thở là cách đơn giản để thư giãn, giảm stress và chuẩn bị ngủ. Chúng hữu ích nếu bạn cảm thấy bồn chồn hoặc lo lắng, giúp khôi phục sự bình tĩnh. Đây là những bài tập thở tốt nhất để thư giãn và ngủ nhanh.",
+                "description": "Bài tập thở là cách đơn giản để thư giãn, giảm stress và chuẩn bị ngủ.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2023-06-21T19:29:47.813",
                 "wellnessCentreGroupModuleId": 2043,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 202801,
+                        "title": "Hít Thở 4-7-8 Để Ngủ Ngon",
+                        "content": "Kỹ thuật thở 4-7-8 là một cách hiệu quả để thư giãn. Bài viết này hướng dẫn cách thực hiện kỹ thuật này để cải thiện giấc ngủ.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/6df8cb4f-51ae-4833-9765-9e8da9a72b94_file.jpg",
+                        "author": "TS. Lê Thị C",
+                        "publishedAt": "2023-06-21T19:30:00.000",
+                        "totalDuration": 5,
+                        "completedDuration": 0
+                    },
+                    {
+                        "id": 202802,
+                        "title": "Tác Dụng Của Hơi Thở Có Ý Thức",
+                        "content": "Hơi thở có ý thức giúp làm dịu hệ thần kinh. Bài viết này giải thích lợi ích và cách thực hành để chuẩn bị cho giấc ngủ.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/6df8cb4f-51ae-4833-9765-9e8da9a72b94_file.jpg",
+                        "author": "TS. Phạm Minh C",
+                        "publishedAt": "2023-06-21T19:35:00.000",
+                        "totalDuration": 5,
+                        "completedDuration": 0
+                    }
+                ]
             },
             {
                 "id": 2022,
@@ -229,18 +588,40 @@
                 "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/6a5097cb-1196-4600-b4ca-5a4e40e048e4_file.jpg",
                 "totalDuration": 10,
                 "completedDuration": 0,
-                "description": "Không có gì thú vị khi mất ngủ. Chúng tôi đã hỏi cộng đồng TalkLife về trải nghiệm mất ngủ. Rose, Dany, Pradyumna, Winnie, Powder, và Raquel đã chia sẻ câu chuyện của họ.",
+                "description": "Không có gì thú vị khi mất ngủ. Hãy nghe câu chuyện từ cộng đồng TalkLife.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2023-06-21T15:43:24.61",
                 "wellnessCentreGroupModuleId": 2043,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 202201,
+                        "title": "Hiểu Biết Mất Ngủ",
+                        "content": "Mất ngủ có thể do nhiều nguyên nhân khác nhau. Bài viết này giải thích các nguyên nhân phổ biến và cách nhận biết mất ngủ.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/6a5097cb-1196-4600-b4ca-5a4e40e048e4_file.jpg",
+                        "author": "TS. Nguyễn Văn A",
+                        "publishedAt": "2023-06-21T15:45:00.000",
+                        "totalDuration": 5,
+                        "completedDuration": 0
+                    },
+                    {
+                        "id": 202202,
+                        "title": "Mẹo Đối Phó Với Mất Ngủ",
+                        "content": "Từ việc tránh caffeine đến thiết lập môi trường ngủ lý tưởng, bài viết này cung cấp các mẹo thực tế để cải thiện giấc ngủ.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/6a5097cb-1196-4600-b4ca-5a4e40e048e4_file.jpg",
+                        "author": "TS. Trần Thị B",
+                        "publishedAt": "2023-06-21T15:50:00.000",
+                        "totalDuration": 5,
+                        "completedDuration": 0
+                    }
+                ]
             }
         ]
     },
     {
         "id": 2045,
         "name": "Stress và Lo Lắng",
+        "imageURL": "https://static.wixstatic.com/media/9cd339_1c0f17e9b80844c984ae393742e38f22~mv2.jpg",
         "modules": [
             {
                 "id": 2035,
@@ -248,38 +629,99 @@
                 "imageURL": "https://static.wixstatic.com/media/9cd339_1c0f17e9b80844c984ae393742e38f22~mv2.jpg",
                 "totalDuration": 10,
                 "completedDuration": 10,
-                "description": "Lo lắng là điều ai cũng trải qua. Chúng ta đều gặp những khoảnh khắc bất an, sợ hãi hay lo âu. Khi tim đập nhanh, bạn cảm thấy nóng nực và khó thở, điều này có thể khó chịu và đôi khi dẫn đến hoảng loạn. Hãy cùng tìm hiểu lo lắng là gì và cách lấy lại kiểm soát.",
+                "description": "Lo lắng là điều ai cũng trải qua. Hãy tìm hiểu lo lắng là gì và cách lấy lại kiểm soát.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2024-10-15T19:40:01.533",
                 "wellnessCentreGroupModuleId": 2045,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 203501,
+                        "title": "Lo Lắng Là Gì?",
+                        "content": "Lo lắng là phản ứng tự nhiên của cơ thể, nhưng có thể trở nên quá mức. Bài viết này giải thích bản chất của lo lắng và cách nhận biết nó.",
+                        "imageURL": "https://static.wixstatic.com/media/9cd339_1c0f17e9b80844c984ae393742e38f22~mv2.jpg",
+                        "author": "TS. Lê Thị C",
+                        "publishedAt": "2024-10-15T19:45:00.000",
+                        "totalDuration": 5,
+                        "completedDuration": 5
+                    },
+                    {
+                        "id": 203502,
+                        "title": "Kiểm Soát Lo Lắng Hàng Ngày",
+                        "content": "Học cách quản lý lo lắng thông qua các kỹ thuật đơn giản như lập danh sách ưu tiên và thực hành chánh niệm.",
+                        "imageURL": "https://static.wixstatic.com/media/9cd339_1c0f17e9b80844c984ae393742e38f22~mv2.jpg",
+                        "author": "TS. Phạm Minh C",
+                        "publishedAt": "2024-10-15T19:50:00.000",
+                        "totalDuration": 5,
+                        "completedDuration": 5
+                    }
+                ]
             },
             {
                 "id": 2036,
-                "name": "Quản Lý Stress: Hướng Dẫn Tìm Cân Bằng và Sức Bền",
+                "name": "Quản Lý Stress",
                 "imageURL": "https://static.wixstatic.com/media/9cd339_8705551147aa4c6c87eb5c110c612636~mv2.jpg",
                 "totalDuration": 10,
                 "completedDuration": 0,
-                "description": "Ai cũng biết cảm giác khi áp lực cuộc sống dồn dập và stress bắt đầu kiểm soát. Stress là bình thường, nhưng biết cách quản lý để nó không lấn át cuộc sống là chìa khóa. Hãy khám phá ưu, nhược điểm của stress và mẹo thực tế để đối phó.",
+                "description": "Khám phá ưu, nhược điểm của stress và mẹo thực tế để đối phó.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2024-10-15T19:46:52.053",
                 "wellnessCentreGroupModuleId": 2045,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 203601,
+                        "title": "Hiểu Biết Stress",
+                        "content": "Stress có thể là động lực hoặc gánh nặng. Bài viết này giải thích tác động của stress và cách nhận biết dấu hiệu quá tải.",
+                        "imageURL": "https://static.wixstatic.com/media/9cd339_8705551147aa4c6c87eb5c110 Ascending...",
+                        "totalDuration": 5,
+                        "completedDuration": 0
+                    },
+                    {
+                        "id": 203602,
+                        "title": "Mẹo Giảm Stress Hiệu Quả",
+                        "content": "Từ tập thể dục đến thiền định, bài viết này cung cấp các mẹo thực tế để quản lý stress trong cuộc sống hàng ngày.",
+                        "imageURL": "https://static.wixstatic.com/media/9cd339_8705551147aa4c6c87eb5c110c612636~mv2.jpg",
+                        "author": "TS. Trần Thị B",
+                        "publishedAt": "2024-10-15T19:55:00.000",
+                        "totalDuration": 5,
+                        "completedDuration": 0
+                    }
+                ]
             },
             {
                 "id": 2037,
-                "name": "Cảm thấy quá tải? Cách tìm bình yên trong hỗn loạn",
+                "name": "Cảm thấy quá tải?",
                 "imageURL": "https://static.wixstatic.com/media/9cd339_075b189e19af4508818f5208b04b322f~mv2.jpg",
                 "totalDuration": 8,
                 "completedDuration": 0,
-                "description": "Cuộc sống bận rộn với công việc, học tập, gia đình có thể khiến bạn cảm thấy áp lực không ngừng. Stress quá mức dẫn đến cảm giác quá tải, đôi khi bất ngờ ập đến. Hãy thử 6 chiến lược đơn giản để lấy lại bình tĩnh khi cần, giúp bạn phục hồi nhanh chóng.",
+                "description": "Hãy thử 6 chiến lược đơn giản để lấy lại bình tĩnh khi cảm thấy quá tải.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2023-09-21T13:08:29.087",
                 "wellnessCentreGroupModuleId": 2045,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 203701,
+                        "title": "Nhận Biết Tình Trạng Quá Tải",
+                        "content": "Cảm giác quá tải có thể xuất hiện khi bạn đối mặt với quá nhiều áp lực. Bài viết này giúp bạn nhận biết và quản lý tình trạng này.",
+                        "imageURL": "https://static.wixstatic.com/media/9cd339_075b189e19af4508818f5208b04b322f~mv2.jpg",
+                        "author": "TS. Lê Thị C",
+                        "publishedAt": "2023-09-21T13:10:00.000",
+                        "totalDuration": 4,
+                        "completedDuration": 0
+                    },
+                    {
+                        "id": 203702,
+                        "title": "Chiến Lược Lấy Lại Bình Tĩnh",
+                        "content": "Bài viết này cung cấp 6 chiến lược đơn giản như nghỉ ngơi ngắn và sắp xếp ưu tiên để vượt qua cảm giác quá tải.",
+                        "imageURL": "https://static.wixstatic.com/media/9cd339_075b189e19af4508818f5208b04b322f~mv2.jpg",
+                        "author": "TS. Phạm Minh C",
+                        "publishedAt": "2023-09-21T13:15:00.000",
+                        "totalDuration": 4,
+                        "completedDuration": 0
+                    }
+                ]
             },
             {
                 "id": 2038,
@@ -287,18 +729,40 @@
                 "imageURL": "https://static.wixstatic.com/media/9cd339_f18f9ce37f0346d69d9792015b2b4c4c~mv2.jpg",
                 "totalDuration": 10,
                 "completedDuration": 0,
-                "description": "Tìm bình yên trong thế giới bận rộn là thách thức, đặc biệt khi lo lắng chiếm tâm trí. Hãy khám phá sức mạnh của thở, thiền và kỹ thuật thư giãn để vượt qua lo lắng, giảm stress và nâng cao sức khỏe tổng thể.",
+                "description": "Khám phá sức mạnh của thở, thiền và kỹ thuật thư giãn để vượt qua lo lắng.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2023-09-21T13:11:19.407",
                 "wellnessCentreGroupModuleId": 2045,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 203801,
+                        "title": "Kỹ Thuật Thở Để Thư Giãn",
+                        "content": "Hơi thở có thể làm dịu tâm trí ngay lập tức. Bài viết này hướng dẫn các kỹ thuật thở đơn giản để giảm lo lắng.",
+                        "imageURL": "https://static.wixstatic.com/media/9cd339_f18f9ce37f0346d69d9792015b2b4c4c~mv2.jpg",
+                        "author": "TS. Nguyễn Văn A",
+                        "publishedAt": "2023-09-21T13:15:00.000",
+                        "totalDuration": 5,
+                        "completedDuration": 0
+                    },
+                    {
+                        "id": 203802,
+                        "title": "Thiền Định Cho Người Mới Bắt Đầu",
+                        "content": "Thiền định không cần phức tạp. Bài viết này cung cấp các bước đơn giản để bắt đầu thực hành thiền để giảm stress.",
+                        "imageURL": "https://static.wixstatic.com/media/9cd339_f18f9ce37f0346d69d9792015b2b4c4c~mv2.jpg",
+                        "author": "TS. Trần Thị B",
+                        "publishedAt": "2023-09-21T13:20:00.000",
+                        "totalDuration": 5,
+                        "completedDuration": 0
+                    }
+                ]
             }
         ]
     },
     {
         "id": 2042,
         "name": "Mối Quan Hệ",
+        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/ac4275f8-6e7a-4726-bd3a-47ef4fb774e5_file.jpg",
         "modules": [
             {
                 "id": 2021,
@@ -306,12 +770,33 @@
                 "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/ac4275f8-6e7a-4726-bd3a-47ef4fb774e5_file.jpg",
                 "totalDuration": 10,
                 "completedDuration": 10,
-                "description": "Anh em trong nhà chia sẻ khoảng 50% gen, nhiều điểm chung nhưng cũng có khác biệt. Một số anh em rất hòa thuận, là bạn thân; số khác không hiểu sao cùng nhà. Nuôi dưỡng mối quan hệ tích cực ảnh hưởng lớn đến sức khỏe tương lai. Dưới đây là lời khuyên để gắn kết với anh em.",
+                "description": "Nuôi dưỡng mối quan hệ tích cực với anh em ảnh hưởng lớn đến sức khỏe tương lai.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2023-06-14T14:22:38.787",
                 "wellnessCentreGroupModuleId": 2042,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 202101,
+                        "title": "Xây Dựng Mối Quan Hệ Gia Đình",
+                        "content": "Mối quan hệ với anh em trong nhà cần sự thấu hiểu và giao tiếp. Bài viết này cung cấp các mẹo để cải thiện mối quan hệ gia đình.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/ac4275f8-6e7a-4726-bd3a-47ef4fb774e5_file.jpg",
+                        "author": "TS. Lê Thị C",
+                        "publishedAt": "2023-06-14T14:25:00.000",
+                        "totalDuration": 5,
+                        "completedDuration": 5
+                    },
+                    {
+                        "id": 202102,
+                        "title": "Giải Quyết Xung Đột Gia Đình",
+                        "content": "Xung đột trong gia đình là điều không tránh khỏi. Bài viết này hướng dẫn cách giải quyết mâu thuẫn với anh em một cách tích cực.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/ac4275f8-6e7a-4726-bd3a-47ef4fb774e5_file.jpg",
+                        "author": "TS. Phạm Minh C",
+                        "publishedAt": "2023-06-14T14:30:00.000",
+                        "totalDuration": 5,
+                        "completedDuration": 5
+                    }
+                ]
             },
             {
                 "id": 2023,
@@ -319,12 +804,33 @@
                 "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/c01c2024-bd04-47a4-b4b3-00248f3a93a0_file.jpg",
                 "totalDuration": 15,
                 "completedDuration": 0,
-                "description": "Gặp gỡ người mới khó, nhưng kết bạn đôi khi còn khó hơn hẹn hò, đặc biệt nếu thiếu tự tin. Vậy làm thế nào? Dưới đây là cách kết bạn mới và giữ mối quan hệ.",
+                "description": "Gặp gỡ người mới khó, nhưng kết bạn đôi khi còn khó hơn. Dưới đây là cách làm.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2023-06-14T13:53:49.1",
                 "wellnessCentreGroupModuleId": 2042,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 202301,
+                        "title": "Bắt Đầu Một Tình Bạn",
+                        "content": "Kết bạn bắt đầu từ những bước nhỏ như mở lời và tìm điểm chung. Bài viết này cung cấp các mẹo để bắt đầu tình bạn mới.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/c01c2024-bd04-47a4-b4b3-00248f3a93a0_file.jpg",
+                        "author": "TS. Nguyễn Văn A",
+                        "publishedAt": "2023-06-14T13:55:00.000",
+                        "totalDuration": 8,
+                        "completedDuration": 0
+                    },
+                    {
+                        "id": 202302,
+                        "title": "Duy Trì Tình Bạn Lâu Dài",
+                        "content": "Tình bạn cần sự chăm sóc để bền vững. Bài viết này hướng dẫn cách duy trì mối quan hệ bạn bè qua thời gian.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/c01c2024-bd04-47a4-b4b3-00248f3a93a0_file.jpg",
+                        "author": "TS. Trần Thị B",
+                        "publishedAt": "2023-06-14T14:00:00.000",
+                        "totalDuration": 7,
+                        "completedDuration": 0
+                    }
+                ]
             },
             {
                 "id": 2024,
@@ -332,12 +838,33 @@
                 "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/0229c001-bb81-48bc-8b45-6f85c64ebc61_file.jpg",
                 "totalDuration": 8,
                 "completedDuration": 0,
-                "description": "Tìm lời phù hợp khi ai đó gặp khó khăn không dễ, đôi khi sợ nói sai nên chọn im lặng. Dưới đây là vài mẹo hỗ trợ khi thấy người khác gặp khó trên TalkLife hoặc bất kỳ đâu.",
+                "description": "Tìm lời phù hợp khi ai đó gặp khó khăn không dễ. Dưới đây là vài mẹo hỗ trợ.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2023-06-14T14:20:32.173",
                 "wellnessCentreGroupModuleId": 2042,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 202401,
+                        "title": "Giao Tiếp Khi Hỗ Trợ Người Khác",
+                        "content": "Nói đúng lời trong lúc bạn bè gặp khó khăn là một nghệ thuật. Bài viết này cung cấp các mẫu câu để hỗ trợ hiệu quả.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/0229c001-bb81-48bc-8b45-6f85c64ebc61_file.jpg",
+                        "author": "TS. Lê Thị C",
+                        "publishedAt": "2023-06-14T14:25:00.000",
+                        "totalDuration": 4,
+                        "completedDuration": 0
+                    },
+                    {
+                        "id": 202402,
+                        "title": "Lắng Nghe Chủ Động",
+                        "content": "Lắng nghe là chìa khóa để hỗ trợ người khác. Bài viết này hướng dẫn cách lắng nghe chủ động để xây dựng sự thấu hiểu.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/0229c001-bb81-48bc-8b45-6f85c64ebc61_file.jpg",
+                        "author": "TS. Phạm Minh C",
+                        "publishedAt": "2023-06-14T14:30:00.000",
+                        "totalDuration": 4,
+                        "completedDuration": 0
+                    }
+                ]
             },
             {
                 "id": 2025,
@@ -345,18 +872,40 @@
                 "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/0b23e9e4-8b7e-480c-86c7-e297407a88db_file.jpg",
                 "totalDuration": 10,
                 "completedDuration": 0,
-                "description": "Một số người có tài khiến bạn bực mình, dù họ nói gì. Những người khác chỉ thỉnh thoảng làm bạn khó chịu vì lặp lại hành vi. Vậy làm gì? Có nhiều cách, đây là vài mẹo đối phó với người gây khó chịu.",
+                "description": "Có nhiều cách để đối phó với người gây khó chịu. Đây là vài mẹo hữu ích.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2023-06-14T13:54:48.1",
                 "wellnessCentreGroupModuleId": 2042,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 202501,
+                        "title": "Quản Lý Xung Đột Với Người Khó Chịu",
+                        "content": "Xung đột với người khó chịu có thể được giải quyết bằng giao tiếp khéo léo. Bài viết này cung cấp các chiến lược để đối phó hiệu quả.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/0b23e9e4-8b7e-480c-86c7-e297407a88db_file.jpg",
+                        "author": "TS. Nguyễn Văn A",
+                        "publishedAt": "2023-06-14T13:55:00.000",
+                        "totalDuration": 5,
+                        "completedDuration": 0
+                    },
+                    {
+                        "id": 202502,
+                        "title": "Giữ Bình Tĩnh Trong Tình Huống Khó",
+                        "content": "Giữ bình tĩnh khi đối mặt với người khó chịu là chìa khóa. Bài viết này hướng dẫn các kỹ thuật để duy trì sự kiểm soát cảm xúc.",
+                        "imageURL": "https://d37bukf1aia83y.cloudfront.net/wellness/plexus/0b23e9e4-8b7e-480c-86c7-e297407a88db_file.jpg",
+                        "author": "TS. Trần Thị B",
+                        "publishedAt": "2023-06-14T14:00:00.000",
+                        "totalDuration": 5,
+                        "completedDuration": 0
+                    }
+                ]
             }
         ]
     },
     {
         "id": 3000,
         "name": "Giữ An Toàn",
+        "imageURL": "https://static.wixstatic.com/media/9cd339_654316d461604fd395f140a6bf12b018~mv2.png",
         "modules": [
             {
                 "id": 3001,
@@ -364,12 +913,33 @@
                 "imageURL": "https://static.wixstatic.com/media/9cd339_654316d461604fd395f140a6bf12b018~mv2.png",
                 "totalDuration": 20,
                 "completedDuration": 0,
-                "description": "Nội dung này đề cập đến tự hại, suy nghĩ tự tử và các vấn đề sức khỏe tinh thần, có thể gây kích thích. TalkLife không cung cấp và không thay thế lời khuyên, chẩn đoán hay điều trị chuyên môn. Nếu bạn gặp khó khăn hoặc tự hại, hỗ trợ trực tuyến có thể không phù hợp. Hãy tìm sự tư vấn từ bác sĩ hoặc chuyên gia y tế. Nếu bạn tự hại nghiêm trọng hoặc có ý định ngay lập tức, hãy gọi cấp cứu hoặc đến khoa cấp cứu gần nhất. Liên kết hỗ trợ khủng hoảng sức khỏe tinh thần có trong thanh bên.",
+                "description": "Nội dung này đề cập đến tự hại và các vấn đề sức khỏe tinh thần, có thể gây kích thích.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2025-08-20T10:45:57.923",
                 "wellnessCentreGroupModuleId": 3000,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 300101,
+                        "title": "Hiểu Biết Hành Vi Tự Hại",
+                        "content": "Tự hại thường là cách đối phó với cảm xúc mạnh mẽ. Bài viết này giải thích nguyên nhân và dấu hiệu của hành vi tự hại.",
+                        "imageURL": "https://static.wixstatic.com/media/9cd339_654316d461604fd395f140a6bf12b018~mv2.png",
+                        "author": "TS. Lê Thị C",
+                        "publishedAt": "2025-08-20T10:50:00.000",
+                        "totalDuration": 10,
+                        "completedDuration": 0
+                    },
+                    {
+                        "id": 300102,
+                        "title": "Chiến Lược Thay Thế Tự Hại",
+                        "content": "Thay vì tự hại, bạn có thể thử các chiến lược an toàn hơn. Bài viết này cung cấp các phương pháp thay thế để quản lý cảm xúc.",
+                        "imageURL": "https://static.wixstatic.com/media/9cd339_654316d461604fd395f140a6bf12b018~mv2.png",
+                        "author": "TS. Phạm Minh C",
+                        "publishedAt": "2025-08-20T10:55:00.000",
+                        "totalDuration": 10,
+                        "completedDuration": 0
+                    }
+                ]
             },
             {
                 "id": 3002,
@@ -377,25 +947,67 @@
                 "imageURL": "https://static.wixstatic.com/media/9cd339_32a5f9bda8444a9cae9a12361ef6d92f~mv2.png",
                 "totalDuration": 20,
                 "completedDuration": 0,
-                "description": "Nội dung này đề cập đến suy nghĩ tự tử, có thể gây kích thích. TalkLife không cung cấp và không thay thế lời khuyên, chẩn đoán hay điều trị chuyên môn. Nếu bạn gặp khó khăn hoặc tự hại, hỗ trợ trực tuyến có thể không phù hợp. Hãy tìm sự tư vấn từ bác sĩ hoặc chuyên gia y tế. Nếu bạn tự hại nghiêm trọng hoặc có ý định ngay lập tức, hãy gọi cấp cứu hoặc đến khoa cấp cứu gần nhất. Liên kết hỗ trợ khủng hoảng sức khỏe tinh thần có trong thanh bên.",
+                "description": "Nội dung này đề cập đến suy nghĩ tự tử, có thể gây kích thích.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2025-08-20T14:25:31.47",
                 "wellnessCentreGroupModuleId": 3000,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 300201,
+                        "title": "Nhận Biết Suy Nghĩ Tự Tử",
+                        "content": "Suy nghĩ tự tử có thể xuất hiện trong lúc khó khăn. Bài viết này giải thích cách nhận biết và tìm kiếm sự hỗ trợ.",
+                        "imageURL": "https://static.wixstatic.com/media/9cd339_32a5f9bda8444a9cae9a12361ef6d92f~mv2.png",
+                        "author": "TS. Nguyễn Văn A",
+                        "publishedAt": "2025-08-20T14:30:00.000",
+                        "totalDuration": 10,
+                        "completedDuration": 0
+                    },
+                    {
+                        "id": 300202,
+                        "title": "Tìm Kiếm Sự Hỗ Trợ",
+                        "content": "Hỗ trợ từ chuyên gia và cộng đồng là rất quan trọng. Bài viết này cung cấp các nguồn tài nguyên để đối phó với suy nghĩ tự tử.",
+                        "imageURL": "https://static.wixstatic.com/media/9cd339_32a5f9bda8444a9cae9a12361ef6d92f~mv2.png",
+                        "author": "TS. Trần Thị B",
+                        "publishedAt": "2025-08-20T14:35:00.000",
+                        "totalDuration": 10,
+                        "completedDuration": 0
+                    }
+                ]
             },
             {
                 "id": 3000,
-                "name": "Rối Loạn Ăn Uống: Thông Tin và Tài Nguyên",
+                "name": "Rối Loạn Ăn Uống",
                 "imageURL": "https://static.wixstatic.com/media/9cd339_6b37072066564609a2925effc38401c4~mv2.png",
                 "totalDuration": 20,
                 "completedDuration": 0,
-                "description": "Nội dung này đề cập đến rối loạn ăn uống, hành vi ăn uống, cân nặng và hình ảnh cơ thể, cũng như tự tử và tự hại, có thể gây kích thích. TalkLife không cung cấp và không thay thế lời khuyên, chẩn đoán hay điều trị chuyên môn. Nếu bạn gặp khó khăn với rối loạn ăn uống, hỗ trợ trực tuyến có thể không phù hợp. Hãy tìm sự tư vấn từ bác sĩ hoặc chuyên gia y tế. Liên kết hỗ trợ khủng hoảng sức khỏe tinh thần có trong thanh bên.",
+                "description": "Nội dung này đề cập đến rối loạn ăn uống và các vấn đề liên quan, có thể gây kích thích.",
                 "moduleColor1": "#020024",
                 "moduleColor2": "#8131ad",
                 "updatedAt": "2025-08-20T14:37:54.23",
                 "wellnessCentreGroupModuleId": 3000,
-                "sections": []
+                "articles": [
+                    {
+                        "id": 300001,
+                        "title": "Hiểu Biết Rối Loạn Ăn Uống",
+                        "content": "Rối loạn ăn uống có thể ảnh hưởng nghiêm trọng đến sức khỏe. Bài viết này giải thích các loại rối loạn và dấu hiệu nhận biết.",
+                        "imageURL": "https://static.wixstatic.com/media/9cd339_6b37072066564609a2925effc38401c4~mv2.png",
+                        "author": "TS. Lê Thị C",
+                        "publishedAt": "2025-08-20T14:40:00.000",
+                        "totalDuration": 10,
+                        "completedDuration": 0
+                    },
+                    {
+                        "id": 300002,
+                        "title": "Bước Đầu Tiên Để Phục Hồi",
+                        "content": "Phục hồi từ rối loạn ăn uống cần thời gian và hỗ trợ. Bài viết này cung cấp các bước đầu tiên để tìm kiếm sự giúp đỡ.",
+                        "imageURL": "https://static.wixstatic.com/media/9cd339_6b37072066564609a2925effc38401c4~mv2.png",
+                        "author": "TS. Phạm Minh C",
+                        "publishedAt": "2025-08-20T14:45:00.000",
+                        "totalDuration": 10,
+                        "completedDuration": 0
+                    }
+                ]
             }
         ]
     }
