@@ -10,7 +10,7 @@ const ArticleCard = ({ item, onClick, isModule = false }) => {
             <img
                 src={item.imageURL}
                 alt={item.name || item.title}
-                className="w-full h-56 object-cover"
+                className="w-full h-80 object-cover"
             />
             <div className="p-5">
                 {isModule && (
