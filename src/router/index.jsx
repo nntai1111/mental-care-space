@@ -11,7 +11,6 @@ import WellbeingToolsPage from "../pages/WellbeingToolsPage";
 import Layout from "../components/layouts/Layout";
 import LoadingSpinner from "../components/atoms/LoadingSpinner";
 import NotificationSystem from "../components/organisms/NotificationSystem";
-import WellnessHub from "../pages/WellnessHub";
 import { useAutoTheme, useTheme } from "../hooks/useTheme";
 
 function AppRouter() {
@@ -39,28 +38,24 @@ function AppRouter() {
                     />
 
                     <Route
-                        path="/chat"
-                        element={isAuthenticated ? <MoodModulePage /> : <Navigate to="/auth" />}
-                    />
-                    <Route
-                        path="/notifications"
+                        path="/knowledge"
                         element={isAuthenticated ? <KnowledgeModulePage /> : <Navigate to="/auth" />}
                     />
                     <Route
-                        path="/profile"
+                        path="/challenge"
                         element={isAuthenticated ? <ChallengeModulePage /> : <Navigate to="/auth" />}
                     />
                     <Route
-                        path="/wellness-hub"
-                        element={isAuthenticated ? <WellnessHub /> : <Navigate to="/auth" />}
-                    />
-                    <Route
-                        path="/settings"
-                        element={isAuthenticated ? <WellbeingToolsPage /> : <Navigate to="/auth" />}
-                    />
-                    <Route
-                        path="/icons"
+                        path="/progress"
                         element={isAuthenticated ? <ProgressModulePage /> : <Navigate to="/auth" />}
+                    />
+                    <Route
+                        path="/mood"
+                        element={isAuthenticated ? <MoodModulePage /> : <Navigate to="/auth" />}
+                    />
+                    <Route
+                        path="/wellbeingtools"
+                        element={isAuthenticated ? <WellbeingToolsPage /> : <Navigate to="/auth" />}
                     />
                     <Route
                         path="/"

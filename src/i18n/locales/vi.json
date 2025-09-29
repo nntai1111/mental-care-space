@@ -95,11 +95,10 @@
   },
   "nav": {
     "home": "Trang chủ",
-    "chat": "MoodModule",
-    "notifications": "KnowledgeModule",
-    "profile": "ChallengeModule",
-    "wellness-hub": "Trung tâm sức khỏe",
-    "settings": "WellbeingTools",
-    "icons": "ProgressModule"
+    "knowledge": "Kiến thức",
+    "challenge": "Thử thách",
+    "progress": "Tiến trình",
+    "mood": "Cảm xúc",
+    "wellbeingtools": "Công cụ cải thiện sức khỏe"
   }
 }

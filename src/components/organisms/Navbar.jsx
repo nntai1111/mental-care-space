@@ -26,11 +26,12 @@ const Navbar = ({ activeTab, onTabChange, unreadMessages, unreadNotifications })
 
     const navigationItems = [
         { key: "home", label: t("nav.home"), gradient: "from-blue-500 to-indigo-600", textColor: "text-blue-600 dark:text-blue-400", bgColor: "bg-blue-50 dark:bg-blue-900/20", hoverBg: "hover:bg-blue-100 dark:hover:bg-blue-800/30" },
-        { key: "chat", label: t("nav.chat"), gradient: "from-cyan-500 to-teal-600", textColor: "text-cyan-600 dark:text-cyan-400", bgColor: "bg-cyan-50 dark:bg-cyan-900/20", hoverBg: "hover:bg-cyan-100 dark:hover:bg-cyan-800/30", badge: unreadMessages },
-        { key: "notifications", label: t("nav.notifications"), gradient: "from-amber-500 to-orange-600", textColor: "text-amber-600 dark:text-amber-400", bgColor: "bg-amber-50 dark:bg-amber-900/20", hoverBg: "hover:bg-amber-100 dark:hover:bg-amber-800/30", badge: unreadNotifications },
-        { key: "profile", label: t("nav.profile"), gradient: "from-emerald-500 to-green-600", textColor: "text-emerald-600 dark:text-emerald-400", bgColor: "bg-emerald-50 dark:bg-emerald-900/20", hoverBg: "hover:bg-emerald-100 dark:hover:bg-emerald-800/30" },
-        { key: "wellness-hub", label: t("nav.wellness-hub"), gradient: "from-lime-500 to-emerald-600", textColor: "text-lime-600 dark:text-lime-400", bgColor: "bg-lime-50 dark:bg-lime-900/20", hoverBg: "hover:bg-lime-100 dark:hover:bg-lime-800/30" },
-        { key: "settings", label: t("nav.settings"), gradient: "from-gray-500 to-slate-600", textColor: "text-gray-600 dark:text-gray-400", bgColor: "bg-gray-50 dark:bg-gray-900/20", hoverBg: "hover:bg-gray-100 dark:hover:bg-gray-800/30" },
+        { key: "knowledge", label: t("nav.knowledge"), gradient: "from-purple-500 to-pink-600", textColor: "text-purple-600 dark:text-pink-400", bgColor: "bg-purple-50 dark:bg-pink-900/20", hoverBg: "hover:bg-purple-100 dark:hover:bg-pink-800/30" },
+        { key: "challenge", label: t("nav.challenge"), gradient: "from-red-500 to-orange-600", textColor: "text-red-600 dark:text-orange-400", bgColor: "bg-red-50 dark:bg-orange-900/20", hoverBg: "hover:bg-red-100 dark:hover:bg-orange-800/30" },
+        { key: "progress", label: t("nav.progress"), gradient: "from-green-500 to-teal-600", textColor: "text-green-600 dark:text-teal-400", bgColor: "bg-green-50 dark:bg-teal-900/20", hoverBg: "hover:bg-green-100 dark:hover:bg-teal-800/30" },
+        { key: "mood", label: t("nav.mood"), gradient: "from-cyan-500 to-blue-600", textColor: "text-cyan-600 dark:text-blue-400", bgColor: "bg-cyan-50 dark:bg-blue-900/20", hoverBg: "hover:bg-cyan-100 dark:hover:bg-blue-800/30" },
+        // { key: "wellness-hub", label: t("nav.wellness-hub"), gradient: "from-lime-500 to-emerald-600", textColor: "text-lime-600 dark:text-lime-400", bgColor: "bg-lime-50 dark:bg-lime-900/20", hoverBg: "hover:bg-lime-100 dark:hover:bg-lime-800/30" },
+        { key: "wellbeingtools", label: t("nav.wellbeingtools"), gradient: "from-gray-500 to-slate-600", textColor: "text-gray-600 dark:text-gray-400", bgColor: "bg-gray-50 dark:bg-gray-900/20", hoverBg: "hover:bg-gray-100 dark:hover:bg-gray-800/30" },
     ];
 
     return (
