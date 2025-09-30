@@ -1,7 +1,10 @@
 import PropTypes from 'prop-types';
+import { useNavigate } from 'react-router-dom';
 import Button from '../atoms/Button';
+import DailyCheckInPage from '../../pages/DailyCheckInPage';
+const DetailCard = ({ id, title, description, duration, tasks }) => {
+    const navigate = useNavigate();
 
-const DetailCard = ({ title, description, duration, tasks }) => {
     return (
         <div className="bg-white p-4 rounded-lg shadow-md">
             <img src="https://via.placeholder.com/300?text=Challenge" alt={title} className="w-full h-40 object-cover rounded-lg mb-4" />
@@ -16,12 +19,15 @@ const DetailCard = ({ title, description, duration, tasks }) => {
                     ))}
                 </ul>
             </div>
-            <Button variant="primary" className="w-full">Start Challenge</Button>
+            <Button variant="primary" className="w-full" onClick={() => navigate(`/check-in/${id}`)}>
+                Start Challenge
+            </Button>
         </div>
     );
 };
 
 DetailCard.propTypes = {
+    id: PropTypes.number.isRequired,
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     duration: PropTypes.string.isRequired,

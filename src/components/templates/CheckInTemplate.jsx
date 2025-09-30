@@ -1,17 +1,28 @@
+import PropTypes from "prop-types";
+import { useNavigate } from "react-router-dom";
+import { ArrowLeft } from "lucide-react"; // icon mũi tên trái
+import IconButton from "../atoms/IconButton";
 
-import PropTypes from 'prop-types';
-import Icon from '../atoms/Icon';
+const CheckInTemplate = ({ checkInSection }) => {
+    const navigate = useNavigate();
 
-const CheckInTemplate = ({ checkInSection }) => (
-    <div className="min-h-screen bg-white p-4 font-sans">
-        <div className="flex justify-between items-center mb-4">
-            <Icon name="ArrowLeft" color="text-gray-800" className="cursor-pointer" />
-            <h1 className="text-2xl font-bold text-gray-800">Daily Check-In</h1>
-            <div className="w-6" /> {/* Placeholder for alignment */}
+    return (
+        <div className="min-h-screen bg-white p-4 font-sans">
+            <div className="flex justify-between items-center mb-4">
+                <IconButton
+                    icon={ArrowLeft}
+                    variant="ghost"
+                    size="md"
+                    onClick={() => navigate("/challenge")}
+                    title="Back"
+                />
+                <h1 className="text-2xl font-bold text-gray-800">Daily Check-In</h1>
+                <div className="w-6" />
+            </div>
+            {checkInSection}
         </div>
-        {checkInSection}
-    </div>
-);
+    );
+};
 
 CheckInTemplate.propTypes = {
     checkInSection: PropTypes.node.isRequired,

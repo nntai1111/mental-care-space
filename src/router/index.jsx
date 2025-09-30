@@ -8,11 +8,14 @@ import KnowledgeModulePage from "../pages/KnowledgeModulePage";
 import ChallengeModulePage from "../pages/ChallengeModulePage";
 import ProgressModulePage from "../pages/ProgressModulePage";
 import WellbeingToolsPage from "../pages/WellbeingToolsPage";
+import ChallengeDetailPage from "../pages/ChallengeDetailPage";
+import DailyCheckInPage from "../pages/DailyCheckInPage";
+import CompletionPage from "../pages/CompletionPage";
 import Layout from "../components/layouts/Layout";
 import LoadingSpinner from "../components/atoms/LoadingSpinner";
 import NotificationSystem from "../components/organisms/NotificationSystem";
 import { useAutoTheme, useTheme } from "../hooks/useTheme";
-
+import TaskTimeline from "../components/organisms/TaskTimeline";
 function AppRouter() {
     const { isAuthenticated, loading } = useSelector((state) => state.auth);
     useAutoTheme();
@@ -36,15 +39,27 @@ function AppRouter() {
                         path="/home"
                         element={isAuthenticated ? <HomePage /> : <Navigate to="/auth" />}
                     />
-
+                    {/* knowledge */}
                     <Route
                         path="/knowledge"
                         element={isAuthenticated ? <KnowledgeModulePage /> : <Navigate to="/auth" />}
                     />
+                    {/* challenge */}
                     <Route
                         path="/challenge"
                         element={isAuthenticated ? <ChallengeModulePage /> : <Navigate to="/auth" />}
                     />
+                    <Route path="/challenge/:id"
+                        element={isAuthenticated ? <ChallengeDetailPage /> : <Navigate to="/auth" />}
+                    />
+                    <Route path="/check-in/:id"
+                        element={isAuthenticated ? <DailyCheckInPage /> : <Navigate to="/auth" />}
+                    />
+                    <Route path="/completion/:id"
+                        element={isAuthenticated ? <CompletionPage /> : <Navigate to="/auth" />}
+                    />
+
+                    {/* progress */}
                     <Route
                         path="/progress"
                         element={isAuthenticated ? <ProgressModulePage /> : <Navigate to="/auth" />}

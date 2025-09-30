@@ -14,6 +14,7 @@ const DetailSection = ({ challenge }) => {
             description={challenge.description}
             duration={challenge.duration}
             tasks={tasks}
+            id={challenge.id}
         />
     );
 };

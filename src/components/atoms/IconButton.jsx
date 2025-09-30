@@ -26,6 +26,9 @@ const IconButton = ({
       "bg-red-500 hover:bg-red-600 text-white focus:ring-red-500 shadow-sm hover:shadow-md",
     success:
       "bg-green-500 hover:bg-green-600 text-white focus:ring-green-500 shadow-sm hover:shadow-md",
+    unmarked:
+      "bg-gray-500 hover:bg-gray-600 text-white focus:ring-gray-500 shadow-sm hover:shadow-md",
+
   };
 
   const sizes = {

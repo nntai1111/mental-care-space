@@ -37,55 +37,57 @@ const ChallengeHubPage = () => {
     });
 
     return (
-        <ChallengeHubTemplate
-            filterChips={
-                <FilterChipGroup
-                    durationFilter={durationFilter}
-                    categoryFilter={categoryFilter}
-                    toggleFilter={toggleFilter}
-                />
-            }
-            filterSection={
-                <>
-                    <button
-                        onClick={() => setIsFilterOpen(true)}
-                        className="flex items-center gap-2 mb-4 px-4 py-2 bg-purple-300 text-white rounded-full"
-                    >
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="20"
-                            height="20"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                        >
-                            <path d="M3 6h18" />
-                            <path d="M7 12h10" />
-                            <path d="M10 18h4" />
-                        </svg>
-                        Filter
-                    </button>
-                    <FilterSection
-                        isOpen={isFilterOpen}
-                        onClose={() => setIsFilterOpen(false)}
+        <div className="w-full h-full bg-white overflow-y-auto">
+            <ChallengeHubTemplate
+                filterChips={
+                    <FilterChipGroup
                         durationFilter={durationFilter}
                         categoryFilter={categoryFilter}
                         toggleFilter={toggleFilter}
                     />
-                </>
-            }
-            carouselSection={
-                <CarouselSection
-                    challenges={filteredChallenges}
-                    carouselIndex={carouselIndex}
-                    setCarouselIndex={setCarouselIndex}
-                />
-            }
-            challengeList={<ChallengeList challenges={filteredChallenges} />}
-        />
+                }
+                filterSection={
+                    <>
+                        <button
+                            onClick={() => setIsFilterOpen(true)}
+                            className="flex items-center gap-2 mb-4 px-4 py-2 bg-purple-300 text-white rounded-full"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="20"
+                                height="20"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                            >
+                                <path d="M3 6h18" />
+                                <path d="M7 12h10" />
+                                <path d="M10 18h4" />
+                            </svg>
+                            Filter
+                        </button>
+                        <FilterSection
+                            isOpen={isFilterOpen}
+                            onClose={() => setIsFilterOpen(false)}
+                            durationFilter={durationFilter}
+                            categoryFilter={categoryFilter}
+                            toggleFilter={toggleFilter}
+                        />
+                    </>
+                }
+                carouselSection={
+                    <CarouselSection
+                        challenges={filteredChallenges}
+                        carouselIndex={carouselIndex}
+                        setCarouselIndex={setCarouselIndex}
+                    />
+                }
+                challengeList={<ChallengeList challenges={filteredChallenges} />}
+            />
+        </div>
     );
 };
 

@@ -59,6 +59,7 @@ export default {
         "slide-up": "slideUp 0.3s ease-out",
         "bounce-gentle": "bounceGentle 2s ease-in-out infinite",
         blink: "blink 0.5s infinite alternate",
+        pulsebounce: "pulsebounce 1s infinite", // 👈 thêm animation mới
       },
       keyframes: {
         breathe: {
@@ -87,6 +88,12 @@ export default {
             textShadow: "0 0 10px #00ff00, 0 0 20px #00ff00",
           },
         },
+        pulsebounce: {
+          "0%, 100%": { transform: "scale(1)", opacity: 1 },
+          "25%": { transform: "scale(1.05) translateY(-4px)", opacity: 0.9 },
+          "50%": { transform: "scale(0.95) translateY(0px)", opacity: 0.8 },
+          "75%": { transform: "scale(1.08) translateY(-2px)", opacity: 1 },
+        },
       },
       fontFamily: {
         sans: [
@@ -113,6 +120,6 @@ export default {
   plugins: [
     require("@tailwindcss/forms"),
     require("@tailwindcss/typography"),
-    require("tailwind-scrollbar")({ nocompatible: true }), // 👈 thêm dòng này
+    require("tailwind-scrollbar")({ nocompatible: true }),
   ],
 };

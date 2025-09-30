@@ -8,9 +8,9 @@ const ChallengeHubTemplate = ({
     challengeList,
 }) => {
     return (
-        <div className="min-h-screen bg-white p-4 font-sans">
+        <div className="min-h-screen p-4 font-sans ">
             <div className="flex justify-between items-center mb-4">
-                <h1 className="text-2xl font-bold text-gray-800">Challenges</h1>
+                <h1 className="text-2xl font-bold text-gray-800 dark:text-white">Challenges</h1>
                 <Icon name="Bell" color="text-yellow-500" className="cursor-pointer" />
             </div>
             {filterChips}

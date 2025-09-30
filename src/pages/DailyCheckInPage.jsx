@@ -5,6 +5,7 @@ import CheckInTemplate from '../components/templates/CheckInTemplate';
 import challengesData from '../data/challenges.json';
 
 const DailyCheckInPage = () => {
+
     const { id } = useParams();
     const navigate = useNavigate();
     const [challenge, setChallenge] = useState(null);

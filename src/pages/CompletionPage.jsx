@@ -1,10 +1,9 @@
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import CompletionSection from '../components/organisms/CompletionSection';
 import CompletionTemplate from '../components/templates/CompletionTemplate';
 
 const CompletionPage = () => {
     const { id } = useParams();
-    const navigate = useNavigate();
 
     return (
         <CompletionTemplate

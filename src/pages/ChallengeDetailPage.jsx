@@ -9,8 +9,9 @@ const ChallengeDetailPage = () => {
     const [challenge, setChallenge] = useState(null);
 
     useEffect(() => {
-        const foundChallenge = challengesData.find(ch => ch.id === parseInt(id));
+        const foundChallenge = challengesData.find(ch => ch.id === parseInt(1));
         setChallenge(foundChallenge);
+        console.log("asssss", id);
     }, [id]);
 
     if (!challenge) return <p>Loading...</p>;

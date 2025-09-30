@@ -8,7 +8,7 @@ const ChallengeList = ({ challenges }) => {
             {challenges.length > 0 ? (
                 challenges.map(challenge => (
                     <ChallengeCard
-                        key={challenge.id}
+                        id={challenge.id}
                         title={challenge.title}
                         description={challenge.description}
                         category={challenge.category}
